@@ -108,8 +108,14 @@ a:hover:after {
   text-align: center;
 }
 
-
-#textopequeno{
+#cabecalho{
   text-align: center;
- 
+  align-items: center;
+  align-content: center;
+}
+
+span{
+  color: #27b1bf;
+  font-weight: 700;
+  
 }
