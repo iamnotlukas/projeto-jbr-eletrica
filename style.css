@@ -45,3 +45,24 @@ li:hover {
     background-color: rgb(3, 7, 253);
     box-shadow: 3px 5px 5px ;
 }
+#div1 {
+    text-align: center;
+    margin-top: 7vw;
+}
+#h1principal {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+span {
+    color: #087390;
+}
+footer {
+    text-align: center;
+    margin-top: 70%;
+}
