@@ -72,10 +72,12 @@ a:hover {
 
 .i2 {
   /*está inativo, alterar display none */
-  display: none;
-  width: 40%;
+
+  width: 25%;
   border-radius: 25px;
   text-align: center;
+  display: inline;
+  margin-inline: 30px;
 }
 
 a {
@@ -118,4 +120,9 @@ span{
   color: #27b1bf;
   font-weight: 700;
   
+}
+
+.imgprincipal{
+  text-align: center;
+  margin-inline: 3px;
 }
