@@ -13,13 +13,16 @@ header {
   padding: 0;
   width: 100%;
   height: 7vw;
-  background-color: #5c65c0;
+  box-sizing:content-box;
+  background-color: rgb(46,131,255);
+  background: linear-gradient(180deg, rgba(46,131,255,1) 0%, rgba(255,255,255,1) 100%);
   position: absolute;
   align-items: center;
   justify-content: space-around;
   box-shadow: 1px 1px 5px;
   display: flex;
   text-decoration: none;
+  margin-left: 0;
 }
 
 h3 {
@@ -74,8 +77,8 @@ a:after {
 }
 
 .cabecalho img{
-  width: 25%;
-  border-radius: 20px;
+  width: 25vw;
+  border-radius: 10px;
   text-align: center;
   display: inline;
   margin-inline: 30px;
@@ -183,9 +186,9 @@ span{
   text-align:center;
 }
 
-.img img{
-  max-width: 30vw;
-  max-height: 30vw;
+.img img{ /*imagem eletricista azul*/
+  max-width: 75vw;
+  max-height: 75vh;
   float: left;
   margin-right: 10px;
   margin-left: 10px;
