@@ -1,11 +1,9 @@
 html,
 body,
-header { /*organização geral e uso máximo do conteúdo */
+header {
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  margin-left: 1px;
-  margin-right: 1px;
 }
 
 
@@ -18,7 +16,7 @@ header { /*organização geral e uso máximo do conteúdo */
   background-color: #5c65c0;
   position: absolute;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   box-shadow: 1px 1px 5px;
   display: flex;
   text-decoration: none;
@@ -27,9 +25,8 @@ header { /*organização geral e uso máximo do conteúdo */
 h3 {
   padding: 1em;
   color: #000000;
-  letter-spacing: 2px;
-  font-weight: 800;
-  font-size: 3vh;
+  letter-spacing: 3px;
+  font-weight: 700;
 }
 
 ul, li {
@@ -41,7 +38,7 @@ ul, li {
 
 }
 
-.navbar a { /* tag a antes de qualquuer alterção */
+.navbar a {
   position: relative;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
@@ -49,62 +46,67 @@ ul, li {
   font-size: 18px;
   letter-spacing: 0.5px;
   padding: 0 10px;
-  margin-inline: 1px;
+  margin-inline: 5px;
   font-weight: 700;
 
 }
 
-a:after { /* depois que tag a for selecionada ficará azul claro, aparentemente */
+a:after {
   content: "";
   position: absolute;
   background-color: #27b1bf;
-  height: 0.5vh;
+  height: 3px;
   width: 0;
   left: 0;
   bottom: -10px;
   transition: 0.3s;
 }
 
-.navbar a:hover { /* passar o mouse texto ficará branco */
+.navbar a:hover {
   color: #ffffff
  
 
 }
 
-.cabecalho{ /*div do cabeçaho incluindo h1, small e as 3 imagens */
+.cabecalho{
   text-align: center;
   align-items: center;
 }
 
 .cabecalho img{
   width: 25%;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
   display: inline;
-  margin-inline: 2vw;
+  margin-inline: 30px;
 
 }
 
 .navbar a {
   /*Deixar sem sublinhado no botão */
   text-decoration: none;
-  font-size: 2.4vh;
 }
 
-.navbar a:hover:after { /*tag a será preencida 100% */
+.navbar a:hover:after {
   width: 100%;
 }
 
 
+#botãoruim {
+  /* arrumar botão Sobre nós, lado direito */
+  margin: 0px 30px;
+  padding: 0px 0px;
+  text-align: center;
+}
 
 #jbr{ /* logo da jbr navbar */
   margin-top: 10px ;
   margin-bottom: 10px;
   padding: 10px ;
-  height: 10vh;
+  height: 7vw;
 }
 
-#h1servicos{ /* texto principal da aba serviços, seu h1 */
+#h1servicos{
   margin-top: 7vw;
   margin-bottom: 0;
   text-align: center;
@@ -118,12 +120,9 @@ a:after { /* depois que tag a for selecionada ficará azul claro, aparentemente 
 
 .cabecalho img{
   margin-top: 2vw;
-  justify-content: center;
-  flex-direction: row;
-  align-items: stretch;
 }
 
-span{ /* destaque texto azul */
+span{
   color: #27b1bf;
   font-weight: 700;
   
@@ -131,7 +130,7 @@ span{ /* destaque texto azul */
 
 
 
-.button-18 { /* botão e propriedades */
+.button-18 {
   align-items: center;
   background-color: #0A66C2;
   border: 0;
@@ -158,33 +157,38 @@ span{ /* destaque texto azul */
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
-  margin: 10px 10px 10px 10px;
 }
 
 .button-18:hover,
-.button-18:focus { /* animação do botão passar mouse e propriedades */
+.button-18:focus { 
   background-color: #16437E;
   color: #ffffff;
 }
 
-.button-18:active {/* animação do botão ativado e propriedades */
+.button-18:active {
   background: #09223b;
   color: rgb(255, 255, 255, .7);
 }
 
-.button-18:disabled { /* animação do botão desabilitado e propriedades */
+.button-18:disabled { 
   cursor: not-allowed;
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
 
+.servinfra li{
+  list-style: none;
+  position: static;
+  display: table;
+  text-align:center;
+}
 
-.img img{ /*imagem eletricista azul*/
-  max-width: 80vw;
-  max-height: 80vh;
+.img img{
+  max-width: 30vw;
+  max-height: 30vw;
   float: left;
-  margin-right: 10vw;
-  margin-left: 5vw;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .img{
@@ -192,55 +196,5 @@ span{ /* destaque texto azul */
 }
 
 .tiposserv{
-  margin-top: 40vh;
-  display: block;
-  text-align: center;
-}
- .tiposserv ul{
-  display: flex;
-  font-size: 4vh;
-  font-weight: 600;
- }
-
- .tiposserv ul li{
-  display:none;
-  margin-inline: 5px;
-  padding: 0;
-  font-size: 2vh;
-  font-weight: 400;
- }
-
- input:checked + .divinfra .servinfra li{
-  display: block;
-  flex-direction: column;
- }
-
- input:checked + .diveng .serveng li{
-  display: block;
-  flex-direction: column;
- }
-
- input:checked + .divmanu .manu li{
-  display: block;
-  flex-direction: column;
- }
-
- input:checked + .divmanu .manu ul{
-  display: block;
-  flex-direction: column;
- }
- input:checked + .divmanu .manu ul li{
-  display: block;
-  flex-direction: column;
- }
-
-
-
- .divmanu .manu li{
-  flex-direction: column;
- }
-
-input{
-  float: left;
-  font-display: 1vh;
+  margin-top: 30px;
 }
