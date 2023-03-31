@@ -29,8 +29,7 @@ h3 {
   font-weight: 700;
 }
 
-ul,
-li {
+ul, li {
   list-style: none;
   display: flex;
   padding: 1em;
@@ -39,7 +38,7 @@ li {
 
 }
 
-a {
+.navbar a {
   position: relative;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
@@ -63,28 +62,32 @@ a:after {
   transition: 0.3s;
 }
 
-a:hover {
+.navbar a:hover {
   color: #ffffff
  
 
 }
 
-.i2 {
-  /*está inativo, alterar display none */
+.cabecalho{
+  text-align: center;
+  align-items: center;
+}
 
+.cabecalho img{
   width: 25%;
-  border-radius: 25px;
+  border-radius: 20px;
   text-align: center;
   display: inline;
   margin-inline: 30px;
+
 }
 
-a {
+.navbar a {
   /*Deixar sem sublinhado no botão */
   text-decoration: none;
 }
 
-a:hover:after {
+.navbar a:hover:after {
   width: 100%;
 }
 
@@ -115,16 +118,17 @@ a:hover:after {
   align-content: center;
 }
 
+.cabecalho img{
+  margin-top: 2vw;
+}
+
 span{
   color: #27b1bf;
   font-weight: 700;
   
 }
 
-.imgprincipal{
-  text-align: center;
-  margin-inline: 3px;
-}
+
 
 .button-18 {
   align-items: center;
@@ -172,10 +176,25 @@ span{
   color: rgba(0, 0, 0, .3);
 }
 
-.servinfra{
+.servinfra li{
   list-style: none;
   position: static;
   display: table;
   text-align:center;
 }
 
+.img img{
+  max-width: 30vw;
+  max-height: 30vw;
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.img{
+  margin-top: 10vw;
+}
+
+.tiposserv{
+  margin-top: 30px;
+}
