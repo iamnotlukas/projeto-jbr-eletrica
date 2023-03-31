@@ -1,9 +1,11 @@
 html,
 body,
-header {
+header { /*organização geral e uso máximo do conteúdo */
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 
@@ -16,7 +18,7 @@ header {
   background-color: #5c65c0;
   position: absolute;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   box-shadow: 1px 1px 5px;
   display: flex;
   text-decoration: none;
@@ -25,8 +27,9 @@ header {
 h3 {
   padding: 1em;
   color: #000000;
-  letter-spacing: 3px;
-  font-weight: 700;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: 3vh;
 }
 
 ul, li {
@@ -38,7 +41,7 @@ ul, li {
 
 }
 
-.navbar a {
+.navbar a { /* tag a antes de qualquuer alterção */
   position: relative;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
@@ -46,67 +49,62 @@ ul, li {
   font-size: 18px;
   letter-spacing: 0.5px;
   padding: 0 10px;
-  margin-inline: 5px;
+  margin-inline: 1px;
   font-weight: 700;
 
 }
 
-a:after {
+a:after { /* depois que tag a for selecionada ficará azul claro, aparentemente */
   content: "";
   position: absolute;
   background-color: #27b1bf;
-  height: 3px;
+  height: 0.5vh;
   width: 0;
   left: 0;
   bottom: -10px;
   transition: 0.3s;
 }
 
-.navbar a:hover {
+.navbar a:hover { /* passar o mouse texto ficará branco */
   color: #ffffff
  
 
 }
 
-.cabecalho{
+.cabecalho{ /*div do cabeçaho incluindo h1, small e as 3 imagens */
   text-align: center;
   align-items: center;
 }
 
 .cabecalho img{
   width: 25%;
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
   display: inline;
-  margin-inline: 70vw;
+  margin-inline: 2vw;
 
 }
 
 .navbar a {
   /*Deixar sem sublinhado no botão */
   text-decoration: none;
+  font-size: 2.4vh;
 }
 
-.navbar a:hover:after {
+.navbar a:hover:after { /*tag a será preencida 100% */
   width: 100%;
 }
 
 
-#botãoruim {
-  /* arrumar botão Sobre nós, lado direito */
-  margin: 0px 30px;
-  padding: 0px 0px;
-  text-align: center;
-}
 
 #jbr{ /* logo da jbr navbar */
   margin-top: 10px ;
   margin-bottom: 10px;
   padding: 10px ;
-  height: 7vw;
+  height: 10vh;
 }
 
-#h1servicos{
+#h1servicos{ /* texto principal da aba serviços, seu h1 */
   margin-top: 7vw;
   margin-bottom: 0;
   text-align: center;
@@ -120,9 +118,12 @@ a:after {
 
 .cabecalho img{
   margin-top: 2vw;
+  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
 }
 
-span{
+span{ /* destaque texto azul */
   color: #27b1bf;
   font-weight: 700;
   
@@ -130,7 +131,7 @@ span{
 
 
 
-.button-18 {
+.button-18 { /* botão e propriedades */
   align-items: center;
   background-color: #0A66C2;
   border: 0;
@@ -161,35 +162,29 @@ span{
 }
 
 .button-18:hover,
-.button-18:focus { 
+.button-18:focus { /* animação do botão passar mouse e propriedades */
   background-color: #16437E;
   color: #ffffff;
 }
 
-.button-18:active {
+.button-18:active {/* animação do botão ativado e propriedades */
   background: #09223b;
   color: rgb(255, 255, 255, .7);
 }
 
-.button-18:disabled { 
+.button-18:disabled { /* animação do botão desabilitado e propriedades */
   cursor: not-allowed;
   background: rgba(0, 0, 0, .08);
   color: rgba(0, 0, 0, .3);
 }
 
-.servinfra li{
-  list-style: none;
-  position: static;
-  display: table;
-  text-align:center;
-}
 
-.img img{
-  max-width: 30vw;
-  max-height: 30vw;
+.img img{ /*imagem eletricista azul*/
+  max-width: 80vw;
+  max-height: 80vh;
   float: left;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 10vw;
+  margin-left: 5vw;
 }
 
 .img{
@@ -197,6 +192,55 @@ span{
 }
 
 .tiposserv{
-  margin-top: 10vw;
+  margin-top: 40vh;
+  display: block;
   text-align: center;
+}
+ .tiposserv ul{
+  display: flex;
+  font-size: 4vh;
+  font-weight: 600;
+ }
+
+ .tiposserv ul li{
+  display:none;
+  margin-inline: 5px;
+  padding: 0;
+  font-size: 2vh;
+  font-weight: 400;
+ }
+
+ input:checked + .divinfra .servinfra li{
+  display: block;
+  flex-direction: column;
+ }
+
+ input:checked + .diveng .serveng li{
+  display: block;
+  flex-direction: column;
+ }
+
+ input:checked + .divmanu .manu li{
+  display: block;
+  flex-direction: column;
+ }
+
+ input:checked + .divmanu .manu ul{
+  display: block;
+  flex-direction: column;
+ }
+ input:checked + .divmanu .manu ul li{
+  display: block;
+  flex-direction: column;
+ }
+
+
+
+ .divmanu .manu li{
+  flex-direction: column;
+ }
+
+input{
+  float: left;
+  font-display: 1vh;
 }
