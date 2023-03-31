@@ -15,13 +15,16 @@ header { /*organização geral e uso máximo do conteúdo */
   padding: 0;
   width: 100%;
   height: 7vw;
-  background-color: #5c65c0;
+  box-sizing:content-box;
+  background-color: rgb(46,131,255);
+  background: linear-gradient(180deg, rgba(46,131,255,1) 0%, rgba(255,255,255,1) 100%);
   position: absolute;
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 1px 1px 5px;
   display: flex;
   text-decoration: none;
+  margin-left: 0;
 }
 
 h3 {
@@ -180,8 +183,8 @@ span{ /* destaque texto azul */
 
 
 .img img{ /*imagem eletricista azul*/
-  max-width: 80vw;
-  max-height: 80vh;
+  max-width: 75vw;
+  max-height: 75vh;
   float: left;
   margin-right: 10vw;
   margin-left: 5vw;
