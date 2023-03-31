@@ -78,7 +78,7 @@ a:after {
   border-radius: 20px;
   text-align: center;
   display: inline;
-  margin-inline: 30px;
+  margin-inline: 70vw;
 
 }
 
@@ -157,6 +157,7 @@ span{
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
+  margin: 10px 10px 10px 10px;
 }
 
 .button-18:hover,
@@ -197,4 +198,5 @@ span{
 
 .tiposserv{
   margin-top: 10vw;
+  text-align: center;
 }
