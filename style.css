@@ -1,0 +1,14 @@
+header {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background-color: #ffff;
+}
+
+.navbar, ul, li
+{
+font-family: 'Open Sans';
+margin-left: 1062px 55px 23px 331px;
+}
