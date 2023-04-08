@@ -1,14 +1,324 @@
-header {
-    position: absolute;
-    width: 1440px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background-color: #ffff;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.navbar, ul, li
-{
-font-family: 'Open Sans';
-margin-left: 1062px 55px 23px 331px;
+body {
+  background-color: #E5E5E5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #FFFFFF;
+}
+
+.navbar img {
+  /* logo */
+
+
+  position: absolute;
+  width: 139px;
+  height: 48px;
+  left: 43px;
+  top: 16px;
+
+  background: url(image.png);
+}
+
+.navbar #home {
+  /* Home */
+
+
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 1062px;
+  top: 27px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* cor-marca/azul-escuro */
+
+  color: #002847;
+}
+
+.navbar #about {
+  /* Sobre */
+
+
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 1141px;
+  top: 27px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* cor-marca/azul-escuro */
+
+  color: #002847;
+}
+
+.navbar #serv {
+  /* Serviços */
+
+
+  position: absolute;
+  width: 64px;
+  height: 24px;
+  left: 1218px;
+  top: 27px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* cor-marca/azul-escuro */
+
+  color: #002847;
+}
+
+.navbar #contato {
+  /* Contato */
+
+
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  left: 1314px;
+  top: 27px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* cor-marca/azul-escuro */
+
+  color: #002847;
+}
+
+.menu .navbar li {
+  list-style-type: none;
+}
+
+main .intro {
+  /*Aqui é a section da introdução*/
+
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+main .intro img {
+  /* Imagem Eletricista arrumando, parte de introdução */
+
+
+  position: absolute;
+  width: 1440px;
+  height: 680px;
+  left: 0px;
+  top: 80px;
+
+  background: url(um-eletricista-trabalha-em-uma-mesa-telefonica-com-um-cabo-eletrico-de-conexao.jpg);
+}
+
+main .intro h1 {
+  /* Nossa Tradição é nossa diferença! */
+
+
+
+  position: absolute;
+  width: 600px;
+  height: 128px;
+  left: 420px;
+  top: 240px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  /* or 114% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+main .intro #small {
+  /* small em baixo do h1 da intro */
+
+
+  position: absolute;
+  width: 457px;
+  height: 56px;
+  left: 491px;
+  top: 398px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+main .intro button {
+  /* btn-orcamento */
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 8px;
+
+  position: absolute;
+  width: 218px;
+  height: 60px;
+  left: 611px;
+  top: 512px;
+
+  background: #00B0F2;
+}
+
+main .intro button p {
+  /* Faça um orçamento, texto dentro do botão*/
+
+
+
+  width: 154px;
+  height: 28px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+main .intro .social-icons {
+  /* div dos social icons */
+  position: absolute;
+  width: 121.88px;
+  height: 29.88px;
+  left: 659px;
+  top: 639px;
+}
+
+main .intro .social-icons #insta {
+  /*  icone do instagram na section introdução */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  gap: 8px;
+
+  position: absolute;
+  width: 29.89px;
+  height: 29.88px;
+  left: 659px;
+  top: 639px;
+
+  width: 21.89px;
+  height: 21.88px;
+
+  /* UI/Branco */
+
+  background: #FFFFFF;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+main .intro .social-icons #facebook {
+  /*  icone do Facebook na section introdução */
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  gap: 8px;
+
+  position: absolute;
+  width: 29.88px;
+  height: 29.88px;
+  left: 705px;
+  top: 639px;
+
+}
+
+main .intro .social-icons #linkedin {
+  /*  icone do Linkedin na section introdução */
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  gap: 8px;
+
+  position: absolute;
+  width: 29.88px;
+  height: 29.87px;
+  left: 751px;
+  top: 639px;
 }
