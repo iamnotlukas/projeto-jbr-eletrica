@@ -247,11 +247,14 @@ main .intro button p {
 
 main .intro .social-icons {
   /* div dos social icons */
+  display: inline-flex;
+  flex-direction: row;
   position: absolute;
   width: 121.88px;
   height: 29.88px;
   left: 659px;
   top: 639px;
+ 
 }
 
 main .intro .social-icons #insta {
@@ -263,21 +266,23 @@ main .intro .social-icons #insta {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4px;
+  padding: 0px;
   gap: 8px;
 
-  position: absolute;
+  position: static;
   width: 29.89px;
   height: 29.88px;
-  left: 659px;
-  top: 639px;
+  left: 663px;
+  top: 563px;
+  right: 755.11px;
+  bottom: 95.12px;
+  margin-right: 24.11px;
 
-  width: 21.89px;
-  height: 21.88px;
+ 
 
   /* UI/Branco */
 
-  background: #FFFFFF;
+  background-image: #FFFFFF;
 
   /* Inside auto layout */
 
@@ -294,18 +299,19 @@ main .intro .social-icons #facebook {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 4px;
+  padding: 0px;
   gap: 8px;
 
-  position: absolute;
+  position: static;
   width: 29.88px;
   height: 29.88px;
   left: 705px;
   top: 639px;
+  margin-right: 24.11px;
 
 }
 
-main .intro .social-icons #linkedin {
+main .intro .social-icons #linkdin {
   /*  icone do Linkedin na section introdução */
   /* Auto layout */
 
@@ -313,12 +319,13 @@ main .intro .social-icons #linkedin {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 4px;
+  padding: 0px;
   gap: 8px;
 
-  position: absolute;
+  position: static;
   width: 29.88px;
   height: 29.87px;
   left: 751px;
   top: 639px;
+  margin-right: 24.11px;
 }
