@@ -33,6 +33,38 @@ body {
   background: url(image.png);
 }
 
+.navbar ul li a{
+  
+  text-decoration: none;
+ 
+}
+
+.navbar ul li a:after{
+  content: "";
+  position: absolute;
+  background-color: #00B0F2;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  text-decoration: none;
+ 
+}
+
+.navbar ul li a:hover{
+  color: #000000;
+  text-decoration: none;
+
+}
+
+.navbar ul li a:hover:after{
+  width: 100%;
+  text-decoration: none;
+
+}
+
+
 .navbar #home {
   /* Home */
 
@@ -329,3 +361,5 @@ main .intro .social-icons #linkdin {
   top: 639px;
   margin-right: 24.11px;
 }
+
+/* A partir daqui começa a segunda seção do projeto, boa sorte! */
