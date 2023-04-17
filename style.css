@@ -367,34 +367,24 @@ main .intro .social-icons #linkdin {
   margin-right: 24.11px;
 }
 
-/* A partir daqui começa a segunda seção do projeto, boa sorte! */
-
-
+/*Segunda seção do projeto*/
 .historia h2 {
-position: absolute;
 width: 284px;
 height: 40px;
-left: 578px;
+margin: 0 auto;
 top: 920px;
-right: 578px
 }
-
-
 .historia p {
 position: absolute;
 width: 841px;
 height: 216px;
 left: 300px;
 top: 984px;
-
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* or 150% */
-
 text-align: center;
-/* cor-marca/azul-escuro */
 color: #002847;
 }
