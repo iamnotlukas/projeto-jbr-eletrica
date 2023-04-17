@@ -49,7 +49,7 @@ body {
   position: absolute;
   background-color: #00B0F2;
   height: 3px;
-  width: 0;
+  width: 47px;
   left: 0;
   bottom: -10px;
   transition: 0.3s;
