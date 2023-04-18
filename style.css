@@ -154,7 +154,7 @@ button {
   margin-top: 78px;
 }
 
-/*PRIMEIRA SECTION  */
+/*SEGUNDA SECTION - História  */
 .historia {
   display: grid;
   place-items: center;
@@ -183,4 +183,34 @@ button {
   margin: 0 auto;
   margin-bottom: 32px;
   width: 841px;
+}
+
+.parceiros{ /*Seção Parceiros */
+  display: grid;
+  place-items: center;
+  background-color: #002847;
+  margin-top: 160px;
+}
+
+.parceiros h2{
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-bottom: 64px;
+  color: #FFFFFF;
+}
+
+.parceiros span{
+  color: #0099A8;
+}
+
+.parceiros h2+span{
+  width: 284px;
+}
+
+.logoparceiros{
+  margin-top: 368px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
