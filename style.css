@@ -219,9 +219,10 @@ button {
 }
 
 .logoparceiros ul li img {
-  margin-inline: 50px;
+  width: auto;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .logoparceiros ul {
@@ -239,4 +240,8 @@ button {
 .logoparceiros #casaparafusos{
   margin-left: 167px;
   margin-right: 155px;
+}
+
+.logoparceiros .utlimaslogo {
+  margin-bottom: 95px;
 }
