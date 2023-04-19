@@ -277,6 +277,10 @@ img:hover {
 
 .clientes .logoclientes{
   width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 .clientes .logoclientes img {
