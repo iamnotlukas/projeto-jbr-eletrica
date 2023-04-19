@@ -322,6 +322,13 @@ img:hover {
 
 
 .serviços {
-width: 100px; 
+width: 100%; 
+height: 918px;
+background-color: #002847;
+display: grid;
+place-items: center;
+}
+
+.serviços #h1 {
 
 }
