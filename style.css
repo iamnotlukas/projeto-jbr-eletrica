@@ -219,6 +219,8 @@ button {
 
 .logoparceiros ul li img {
   transition: transform 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo parceiros ul li img:hover {
@@ -279,18 +281,23 @@ button {
 
 /*IMAGENS CLIENTES*/
 
-.clientes .logoclientes {
+.clientes .logoclientes+.utlimaslogo {
   width: 100%;
   display: grid;
   place-items: center;
   margin-bottom: 30px;
 }
 
-.clientes .logoclientes img {
+.clientes .logoclientes+.utlimaslogo img {
   margin-right: 73px;
   margin-left: 73px;
   gap: 40px;
   align-items: center;
+}
+
+.clientes .logoclientes img {
+  margin-bottom: 80px;
+
 }
 
 img {
@@ -304,11 +311,6 @@ img:hover {
   position: relative;
 }
 
-.clientes .logoclientes ul li img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .cliente .l {
   
