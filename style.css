@@ -204,7 +204,7 @@ button {
   color: #0099a8;
 }
 
-.parceiros h2+span {
+.parceiros h2 + span {
   width: 284px;
   margin-bottom: 95px;
 }
@@ -262,10 +262,9 @@ button {
   margin-top: 80px;
 }
 
-.clientes h2+#nosso {
+.clientes h2 + #nosso {
   width: 382px;
   font-weight: 700;
-
 }
 
 .clientes h2 {
@@ -282,7 +281,7 @@ button {
 
 /*IMAGENS CLIENTES*/
 
-.clientes .logoclientes+.utlimaslogo {
+.clientes .logoclientes + .utlimaslogo {
   width: 100%;
   display: grid;
   place-items: center;
@@ -290,7 +289,7 @@ button {
   align-items: center;
 }
 
-.clientes .logoclientes+.utlimaslogo img {
+.clientes .logoclientes + .utlimaslogo img {
   margin-right: 73px;
   margin-left: 73px;
   gap: 40px;
@@ -300,7 +299,10 @@ button {
 .clientes .logoclientes img {
   margin-bottom: 80px;
   align-items: center;
+}
 
+ul.ultimasclientes {
+  margin-bottom: 50px;
 }
 
 img {
@@ -314,33 +316,132 @@ img:hover {
   position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
 .serviços {
-width: 100%; 
-height: 918px;
-background-color: #002847;
-display: grid;
-place-items: center;
+  width: 100%;
+  height: 918px;
+  background-color: #002847;
+  display: grid;
+  place-items: center;
 }
 
-.serviços #h1 {
-
+.politica {
+  background-color: #00b0f2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.politica h2 {
+  color: #002847;
+  font-weight: 700;
+  width: 494px;
+  margin-bottom: 24px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+}
 
+.politica #pprincipal {
+  font-weight: 400;
+  width: 528px;
+  text-align: center;
+  color: #002847;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
 
+.politica #quadrado1 {
+  width: 640px;
+  height: 160px;
+  background-color: #002847;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
 
+.politica #pquadrado1 {
+  color: #ffffff;
+  text-align: center;
+  width: 471px;
+  height: 48px;
+}
 
+.politica #quadrado2 {
+  width: 640px;
+  height: 160px;
+  background-color: #ffffff;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
 
+.politica #pquadrado2 {
+  width: 528px;
+  color: #002847;
+  font-weight: 400;
+  font-size: 16px;
+  width: 592px;
+  height: 72px;
+  text-align: center;
+  font-size: 16px;
+}
 
+.politica #quadrado3 {
+  width: 640px;
+  height: 160px;
+  background-color: #002847;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
 
+.politica #pquadrado3 {
+  width: 528px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
 
+.politica #quadrado4 {
+  width: 640px;
+  height: 160px;
+  background-color: #002847;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.politica #pquadrado4 {
+  width: 528px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.politica #quadrado5 {
+  width: 640px;
+  height: 160px;
+  background-color: #002847;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 80px;
+}
+
+.politica #pquadrado5 {
+  width: 528px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
