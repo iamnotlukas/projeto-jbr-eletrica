@@ -245,3 +245,25 @@ button {
 .logoparceiros .utlimaslogo {
   margin-bottom: 95px;
 }
+
+/* 3° Section começa aqui - Clientes */
+
+.clientes{
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-color: #FFFFFF;
+  margin-top: 80px;
+}
+
+.clientes h2+span{
+  width: 382px;
+}
+
+.clientes h2{
+  color: #002847;
+}
+
+.clientes span{
+  color: #0099A8;
+}
