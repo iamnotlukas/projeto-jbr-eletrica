@@ -203,7 +203,7 @@ button {
   color: #0099a8;
 }
 
-.parceiros h2 + span {
+.parceiros h2+span {
   width: 284px;
   margin-bottom: 95px;
 }
@@ -259,44 +259,57 @@ button {
   margin-top: 80px;
 }
 
-.clientes h2 + span {
+.clientes h2+#nosso {
   width: 382px;
   font-weight: 700;
+
 }
 
 .clientes h2 {
   color: #002847;
+  margin-bottom: none;
+  text-align: center;
+}
+
+.clientes #nosso {
+  color: #0099a8;
+  text-align: center;
   margin-bottom: 106px;
 }
 
-.clientes span {
-  color: #0099a8;
-}
+/*IMAGENS CLIENTES*/
 
 .clientes .logoclientes {
   width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
 }
 
 .clientes .logoclientes img {
   margin-right: 73px;
   margin-left: 73px;
-  transition: transform 0.2s ease-in-out;
+  gap: 40px;
+  align-items: center;
+}
 
+img {
+  transition: transform 0.2s ease-in-out;
 }
 
 img:hover {
-  transform: scale(1.2); 
+  transform: scale(1.2);
   width: auto;
   display: flex;
   position: relative;
 }
 
-.clientes .logoclientes ul li img{
+.clientes .logoclientes ul li img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cliente .l {
+  
 }
