@@ -215,19 +215,17 @@ button {
   width: 100%;
   justify-content: center;
   align-items: center;
-  
 }
 
 .logoparceiros ul li img {
   transition: transform 0.2s ease-in-out;
 }
 
-img:hover {
-  transform: scale(1.2); 
+.logo parceiros ul li img:hover {
+  transform: scale(1.2);
   width: auto;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .logoparceiros ul {
@@ -242,7 +240,7 @@ img:hover {
   margin-left: 169px;
 }
 
-.logoparceiros #casaparafusos{
+.logoparceiros #casaparafusos {
   margin-left: 167px;
   margin-right: 155px;
 }
@@ -253,29 +251,29 @@ img:hover {
 
 /* 3° Section começa aqui - Clientes */
 
-.clientes{
+.clientes {
   width: 100%;
   display: grid;
   place-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: 80px;
 }
 
-.clientes h2+span{
+.clientes h2 + span {
   width: 382px;
   font-weight: 700;
 }
 
-.clientes h2{
+.clientes h2 {
   color: #002847;
   margin-bottom: 106px;
 }
 
-.clientes span{
-  color: #0099A8;
+.clientes span {
+  color: #0099a8;
 }
 
-.clientes .logoclientes{
+.clientes .logoclientes {
   width: 100%;
   display: flex;
   position: relative;
@@ -294,6 +292,11 @@ img:hover {
   transform: scale(1.2); 
   width: auto;
   display: flex;
-  flex-wrap: wrap;
+  position: relative;
+}
 
+.clientes .logoclientes ul li img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
