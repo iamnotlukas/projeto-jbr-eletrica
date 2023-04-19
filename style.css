@@ -219,6 +219,11 @@ button {
 }
 
 .logoparceiros ul li img {
+  transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2); 
   width: auto;
   display: flex;
   flex-wrap: wrap;
@@ -258,12 +263,33 @@ button {
 
 .clientes h2+span{
   width: 382px;
+  font-weight: 700;
 }
 
 .clientes h2{
   color: #002847;
+  margin-bottom: 106px;
 }
 
 .clientes span{
   color: #0099A8;
+}
+
+.clientes .logoclientes{
+  width: 100%;
+}
+
+.clientes .logoclientes img {
+  margin-right: 73px;
+  margin-left: 73px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+img:hover {
+  transform: scale(1.2); 
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+
 }
