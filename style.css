@@ -184,6 +184,7 @@ button {
 
 .parceiros {
   /*Seção Parceiros */
+  width: 100%;
   display: grid;
   place-items: center;
   background-color: #002847;
@@ -214,7 +215,7 @@ button {
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  
 }
 
 .logoparceiros ul li img {
