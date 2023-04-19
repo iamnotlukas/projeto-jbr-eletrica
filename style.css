@@ -27,6 +27,7 @@ ul {
   padding: 0;
   display: flex;
   gap: 32px;
+  align-items: center;
 }
 
 button {
@@ -286,6 +287,7 @@ button {
   display: grid;
   place-items: center;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .clientes .logoclientes+.utlimaslogo img {
@@ -297,6 +299,7 @@ button {
 
 .clientes .logoclientes img {
   margin-bottom: 80px;
+  align-items: center;
 
 }
 
