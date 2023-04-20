@@ -315,34 +315,36 @@ img:hover {
   display: flex;
   position: relative;
 }
-
+/*5º SECTION-Serviços*/
 .serviços {
   width: 100%;
-  height: 918px;
+  height: 1000px;
   background-color: #002847;
-  display: grid;
-  place-items: center;
+  display: flex;
+  
+  
 }
 
-.titulo {
+.serviços .titulo {
   height: 80px;
-  width: 510px;
-  margin-top: 150px;
-  margin-bottom: none;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 40px;
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border: 1px solid crimson;
 }
 
-.serviços .f1 {
+.serviços h2 {
   color: #FFFFFF;
+  text-align: center;
+  align-items: center;
 }
 
-.serviços .f2 {
+.serviços span {
   color: #0099a8;
   text-align: center;
+  align-items: center;
 }
 
 .serviços .pgf {
@@ -354,21 +356,22 @@ img:hover {
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 45px;
-  margin-top: 25px;
-  position: absolute;
+  text-align: center;
   border: 1px solid crimson;
+  padding: auto;
 }
 
-.principal {
+/*.principal {
   width: 100%;
   height: 400px;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-bottom: 100px;
   border: 1px solid crimson;
-  
+  display: flex;
+  flex-direction: row;
 }
 
+/* 6ºSECTION - POLÍTICA */
 .politica {
   background-color: #00b0f2;
   width: 100%;
