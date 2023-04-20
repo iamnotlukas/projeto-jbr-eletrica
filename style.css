@@ -204,7 +204,7 @@ button {
   color: #0099a8;
 }
 
-.parceiros h2+span {
+.parceiros h2 + span {
   width: 284px;
   margin-bottom: 95px;
 }
@@ -262,7 +262,7 @@ button {
   margin-top: 80px;
 }
 
-.clientes h2+#nosso {
+.clientes h2 + #nosso {
   width: 382px;
   font-weight: 700;
 }
@@ -281,7 +281,7 @@ button {
 
 /*IMAGENS CLIENTES*/
 
-.clientes .logoclientes+.utlimaslogo {
+.clientes .logoclientes + .utlimaslogo {
   width: 100%;
   display: grid;
   place-items: center;
@@ -289,7 +289,7 @@ button {
   align-items: center;
 }
 
-.clientes .logoclientes+.utlimaslogo img {
+.clientes .logoclientes + .utlimaslogo img {
   margin-right: 73px;
   margin-left: 73px;
   gap: 40px;
@@ -334,7 +334,7 @@ img:hover {
 }
 
 .serviços h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   align-items: center;
 }
@@ -349,11 +349,11 @@ img:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   width: 752px;
   display: flex;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -369,9 +369,7 @@ img:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
-
 
 .principal {
   width: 100%;
@@ -392,7 +390,6 @@ img:hover {
   display: flex;
   flex-direction: column;
   margin-left: 64px;
-
 }
 
 #filha-1 {
@@ -458,7 +455,6 @@ img:hover {
   color: #002847;
   margin-top: 60px;
   margin-bottom: 8px;
-
 }
 
 #filha-2 p {
@@ -710,4 +706,85 @@ img:hover {
   font-weight: 400;
   color: #ffffff;
   width: 571px;
+}
+
+/*Start 9° Seção - Localização */
+.localizacao {
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.localizacao h2{
+  color: #002847;
+  text-align: center;
+  width: 290px;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.localizacao span{
+  color: #00b0f2;
+}
+
+.localizacao p {
+  color: #002847;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 41.25px;
+}
+
+.localizacao #telefone {
+  margin-bottom: 80px;
+}
+
+.localizacao img{
+  margin-bottom: 10px;
+}
+
+/* Começa a 9° Seção aqui - Orçamento -  Está acabando, vamos! */
+
+.orcamento {
+  width: 100%;
+  background-color: #002847;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.orcamento h2 {
+  width: 309px;
+  color: #FFFFFF;
+  margin-top: 160px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.orcamento span {
+  color: #0099A8;
+}
+
+.orcamento p {
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+
+.orcamento button{
+  background-color: #00B0F2;
+  padding: 16px 32px;
 }
