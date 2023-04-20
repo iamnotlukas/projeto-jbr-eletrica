@@ -321,8 +321,6 @@ img:hover {
   height: 1000px;
   background-color: #002847;
   display: flex;
-  
-  
 }
 
 .serviços .titulo {
@@ -336,7 +334,7 @@ img:hover {
 }
 
 .serviços h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   align-items: center;
 }
@@ -355,7 +353,7 @@ img:hover {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   border: 1px solid crimson;
   padding: auto;
@@ -398,7 +396,6 @@ img:hover {
   margin-bottom: 40px;
   font-size: 16px;
 }
-
 
 .politica #quadrado1 {
   width: 640px;
@@ -493,4 +490,77 @@ img:hover {
   color: #ffffff;
   text-align: center;
   font-size: 16px;
+}
+
+/*Aqui começa a 7° Seção - Economia */
+
+.economia {
+  width: 100%;
+  height: 432px;
+  background-image: url(./Images/img/bg-quebra.png);
+  background-position: top center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.economia h2 {
+  width: 494px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 160px;
+  margin-bottom: 24px;
+}
+
+.economia p {
+  margin-bottom: 160px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  color: #ffffff;
+  width: 578px;
+}
+
+/* Começa a 8° seção - Experiência */
+
+.exp {
+  width: 100%;
+  height: 448px;
+  background-image: url(./Images/img/bg-quebra02.png);
+  background-position: top center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp h2 {
+  width: 580px;
+  
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 160px;
+  margin-bottom: 24px;
+}
+
+.exp p {
+  margin-bottom: 112px;
+  margin-top: 24px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  color: #ffffff;
+  width: 571px;
 }
