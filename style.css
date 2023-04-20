@@ -750,3 +750,38 @@ img:hover {
   margin-bottom: 10px;
 }
 
+/* Começa a 9° Seção aqui - Orçamento -  Está acabando, vamos! */
+
+.orcamento {
+  width: 100%;
+  background-color: #002847;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.orcamento h2 {
+  width: 309px;
+  color: #FFFFFF;
+  margin-top: 160px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.orcamento span {
+  color: #0099A8;
+}
+
+.orcamento p {
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+
+.orcamento button{
+  background-color: #00B0F2;
+  padding: 16px 32px;
+}
