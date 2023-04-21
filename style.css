@@ -769,10 +769,16 @@ img:hover {
 
 .orcamento h2 {
   width: 309px;
+  height: 80px;
   color: #FFFFFF;
   margin-top: 160px;
   margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
   text-align: center;
+
 }
 
 .orcamento span {
@@ -793,30 +799,39 @@ img:hover {
 
 .footer {
   width: 100%;
-  background-color:#0099A8;
+  background-color: #0099A8;
+  display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  height: 128px;
+  gap: 358px;
+
 }
 
 .footer #p1-linha {
   display: flex;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap: 358px;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding-top: 40px;
   padding-bottom: 4px;
-  
+  flex-direction: column;
+  margin-left: 64px;
+  margin-bottom: 40px;
 }
+
 .footer span {
   font-weight: 600;
 }
+
 .footer #p2-linha {
   display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  gap: 780px;
-  padding-bottom: 40px;
- 
-  
+  text-align: left;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 64px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
 }
