@@ -469,6 +469,8 @@ img:hover {
 }
 
 #mae-3 {
+  width: 416px;
+  height: 382px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -804,7 +806,9 @@ img:hover {
   flex-direction: column;
   flex-wrap: wrap;
   height: 128px;
-  gap: 358px;
+  font-size: 14px;
+  line-height: 22px;
+
 
 }
 .footer p {
@@ -828,6 +832,8 @@ img:hover {
 }
 
 .footer #p2-linha {
+  width: 333px;
+  height: 44px;
   display: flex;
   text-align: left;
   justify-content: flex-end;
@@ -836,4 +842,5 @@ img:hover {
   margin-right: 64px;
   margin-top: 40px;
   margin-bottom: 40px;
+  padding: none;
 }
