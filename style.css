@@ -370,6 +370,11 @@ img:hover {
   gap: 32px;
 }
 
+#card-1:hover, #card-2:hover, #card-3:hover {
+  background-color: #00737e;
+  transition: all .5s ease;
+}
+
 #card-1 {
   width: 416px;
   height: 382px;
@@ -407,12 +412,11 @@ img:hover {
 #card-2 {
   width: 416px;
   height: 382px;
-  background-color: #ffffff;
+  background-color: #066c9b;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 80px;
 }
 
 #card-2 h3 {
@@ -427,14 +431,15 @@ img:hover {
 }
 
 #card-2 p {
-  width: 334px;
+  width: 310px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   text-align: center;
-  color: #002847;
+  color: #ffffff;
   margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 #card-3 {
@@ -445,7 +450,6 @@ img:hover {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 80px;
 }
 
 #card-3 h3 {
@@ -460,7 +464,7 @@ img:hover {
 }
 
 #card-3 p {
-  width: 334px;
+  width: 288px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -468,8 +472,24 @@ img:hover {
   text-align: center;
   color: #FFFFFF;
   margin-top: 8px;
-  
+  margin-bottom: 80px;
 }
+
+#icon {
+  width: 64px;
+  height: 64px;
+  border: 1.5px solid #00b0f2;
+  border-radius: 50%;
+  margin-top: 64px;
+}
+
+#icon img {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 15px;
+}
+
 
 /* 6ºSECTION - POLÍTICA */
 .politica {
