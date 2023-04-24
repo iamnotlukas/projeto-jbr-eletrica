@@ -156,6 +156,7 @@ button {
 .historia {
   display: grid;
   place-items: center;
+  width: 100%;
 }
 
 .historia h2 {
