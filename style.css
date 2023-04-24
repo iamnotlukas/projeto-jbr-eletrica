@@ -778,47 +778,28 @@ img:hover {
 
 .footer {
   width: 100%;
-  background-color: #0099A8;
+  height: 128px;
+  background-color: #0099a8;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 128px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  margin-left: 64px;
+  margin-right: 64px;
+  justify-content: space-between;
+}
+.footer p {
+  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
-
-
-}
-
-.footer p {
-  margin-bottom: 4px;
-}
-
-.footer #p1-linha {
-  display: flex;
-  text-align: center;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 40px;
-  padding-bottom: 4px;
-  flex-direction: column;
-  margin-left: 64px;
-  margin-bottom: 40px;
 }
 
 .footer span {
   font-weight: 600;
-}
-
-.footer #p2-linha {
-  width: 333px;
-  height: 44px;
-  display: flex;
-  text-align: left;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-right: 64px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: none;
 }
