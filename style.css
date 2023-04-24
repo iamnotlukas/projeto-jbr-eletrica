@@ -317,14 +317,14 @@ img:hover {
 }
 
 /*5º SECTION-Serviços*/
-.serviços {
+.servicos {
   width: 100%;
   background-color: #002847;
   display: flex;
   flex-direction: column;
 }
 
-.serviços .titulo #titulo {
+.servicos .titulo #titulo {
   width: 494px;
   margin-top: 160px;
   display: flex;
@@ -333,13 +333,13 @@ img:hover {
   flex-direction: column;
 }
 
-.serviços h2 {
+.servicos h2 {
   color: #ffffff;
   text-align: center;
   align-items: center;
 }
 
-.serviços span {
+.servicos span {
   color: #0099a8;
   text-align: center;
   align-items: center;
