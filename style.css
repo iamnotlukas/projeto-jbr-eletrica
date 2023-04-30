@@ -222,7 +222,7 @@ button {
   padding-top: 64px;
   display: flex;
   flex-wrap: wrap;
-  
+
   justify-content: center;
   align-items: center;
   padding-right: 120px;
@@ -281,7 +281,6 @@ button {
   color: #002847;
   margin-bottom: 106px;
 }
-
 
 .clientes span {
   color: #0099a8;
@@ -416,7 +415,6 @@ ul.ultimasclientes {
   text-align: center;
   color: #ffffff;
   margin-top: 8px;
- 
 }
 
 #card-1:hover p {
@@ -428,9 +426,8 @@ ul.ultimasclientes {
   text-align: center;
   color: #002847;
   margin-top: 8px;
-  
-  transition: all 0.5s ease;
 
+  transition: all 0.5s ease;
 }
 
 #card-2 {
@@ -466,11 +463,9 @@ ul.ultimasclientes {
   color: #ffffff;
   margin-top: 8px;
   margin-bottom: 32px;
-  
-
 }
 
-#card-2:hover p  {
+#card-2:hover p {
   width: 310px;
   font-style: normal;
   font-weight: 400;
@@ -480,9 +475,8 @@ ul.ultimasclientes {
   color: #002847;
   margin-top: 8px;
   margin-bottom: 32px;
-  
-  transition: all 0.5s ease;
 
+  transition: all 0.5s ease;
 }
 
 #card-3 {
@@ -539,8 +533,6 @@ ul.ultimasclientes {
   margin-top: 64px;
 }
 
-
-
 #icon img {
   display: block;
   width: 32px;
@@ -559,9 +551,8 @@ ul.ultimasclientes {
   padding-bottom: 80px;
 }
 
-
 /* centralização do titulo da section politica */
-.politica .principal{
+.politica .principal {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -575,7 +566,6 @@ ul.ultimasclientes {
   margin-bottom: 24px;
   text-align: center;
   justify-content: center;
-  
 }
 
 .politica .principal p {
@@ -587,7 +577,11 @@ ul.ultimasclientes {
   font-size: 16px;
 }
 
-.politica #quadrado1, #quadrado2, #quadrado3, #quadrado4, #quadrado5{
+.politica #quadrado1,
+#quadrado2,
+#quadrado3,
+#quadrado4,
+#quadrado5 {
   width: 640px;
   height: 160px;
   background-color: #002847;
@@ -598,7 +592,11 @@ ul.ultimasclientes {
   font-size: 16px;
 }
 
-.politica #pquadrado1, #pquadrado2, #pquadrado3, #pquadrado4, #pquadrado5{
+.politica #pquadrado1,
+#pquadrado2,
+#pquadrado3,
+#pquadrado4,
+#pquadrado5 {
   color: #ffffff;
   text-align: center;
   width: 471px;
@@ -607,7 +605,11 @@ ul.ultimasclientes {
 
 /*efeito hover nos quadrados */
 
-.politica #quadrado1:hover, #quadrado2:hover, #quadrado3:hover, #quadrado4:hover, #quadrado5:hover{
+.politica #quadrado1:hover,
+#quadrado2:hover,
+#quadrado3:hover,
+#quadrado4:hover,
+#quadrado5:hover {
   width: 640px;
   height: 160px;
   background-color: #f0f0f0;
@@ -621,15 +623,17 @@ ul.ultimasclientes {
 
 /*efeito hover nos parágrafos dos quadrados*/
 
-.politica #quadrado1:hover #pquadrado1, #quadrado2:hover #pquadrado2, #quadrado3:hover #pquadrado3, #quadrado4:hover #pquadrado4, #quadrado5:hover #pquadrado5{
+.politica #quadrado1:hover #pquadrado1,
+#quadrado2:hover #pquadrado2,
+#quadrado3:hover #pquadrado3,
+#quadrado4:hover #pquadrado4,
+#quadrado5:hover #pquadrado5 {
   color: #002847;
   text-align: center;
   width: 471px;
   height: 48px;
   transition: all 0.5s ease;
 }
-
-
 
 /*Aqui começa a 7° Seção - Economia */
 
@@ -660,7 +664,6 @@ ul.ultimasclientes {
 }
 
 .economia p {
- 
   font-size: 16px;
   text-align: center;
   font-weight: 400;
@@ -682,6 +685,8 @@ ul.ultimasclientes {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .exp h2 {
@@ -691,13 +696,10 @@ ul.ultimasclientes {
   font-size: 32px;
   text-align: center;
   color: #ffffff;
-  margin-top: 160px;
   margin-bottom: 24px;
 }
 
 .exp p {
-  margin-bottom: 112px;
-  margin-top: 24px;
   font-size: 16px;
   text-align: center;
   font-weight: 400;
