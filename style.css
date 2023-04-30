@@ -774,7 +774,7 @@ ul.ultimasclientes {
   align-items: center;
   justify-content: center;
   padding-top: 160px;
-  padding-bottom: 160px;
+  
 }
 
 .orcamento h2 {
@@ -805,6 +805,13 @@ ul.ultimasclientes {
 .orcamento button {
   background-color: #00b0f2;
   padding: 16px 32px;
+}
+
+.redes-orcamento{
+  display: flex;
+  gap: 16px;
+  margin-top: 78px;
+  margin: none;
 }
 
 /* Footer - final da página */
