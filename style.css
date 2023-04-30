@@ -716,6 +716,8 @@ ul.ultimasclientes {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .localizacao h2 {
@@ -724,8 +726,8 @@ ul.ultimasclientes {
   width: 290px;
   font-weight: 700;
   font-size: 32px;
-  margin-top: 80px;
   margin-bottom: 24px;
+  line-height: 40px;
 }
 
 .localizacao span {
@@ -740,16 +742,28 @@ ul.ultimasclientes {
   align-items: center;
   justify-content: center;
   margin-bottom: 41.25px;
+  line-height: 24px;
 }
 
-.localizacao #telefone {
-  margin-bottom: 80px;
-}
 
 .localizacao img {
   margin-bottom: 10px;
+
+}
+.localizacao .local{
+  display: grid;
+  place-items: center;
 }
 
+.localizacao .email{
+  display: grid;
+  place-items: center;
+}
+
+.localizacao .telefone{
+  display: grid;
+  place-items: center;
+}
 /* Começa a 9° Seção aqui - Orçamento -  Está acabando, vamos! */
 
 .orcamento {
