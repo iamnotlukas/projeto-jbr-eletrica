@@ -156,6 +156,8 @@ button {
 .historia {
   display: grid;
   place-items: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .historia h2 {
@@ -165,8 +167,9 @@ button {
   line-height: 40px;
   text-align: center;
   color: #002847;
-  margin-top: 160px;
+ 
   margin-bottom: 24px;
+  width: 240px;
 }
 
 .historia span {
@@ -179,8 +182,9 @@ button {
   font-size: 16px;
   line-height: 24px;
   margin: 0 auto;
-  margin-bottom: 32px;
+  margin-block: 24px;
   width: 841px;
+  color: #002847
 }
 
 .parceiros {
@@ -189,7 +193,7 @@ button {
   display: grid;
   place-items: center;
   background-color: #002847;
-  margin-top: 160px;
+  padding-top: 160px;
 }
 
 .parceiros h2 {
@@ -198,6 +202,7 @@ button {
   margin-top: 80px;
   margin-bottom: 64px;
   color: #ffffff;
+  
 }
 
 .parceiros span {
