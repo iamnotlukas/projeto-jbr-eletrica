@@ -13,6 +13,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #f0f0f0;
 }
 
 h1,
@@ -745,22 +746,20 @@ ul.ultimasclientes {
   line-height: 24px;
 }
 
-
 .localizacao img {
   margin-bottom: 10px;
-
 }
-.localizacao .local{
+.localizacao .local {
   display: grid;
   place-items: center;
 }
 
-.localizacao .email{
+.localizacao .email {
   display: grid;
   place-items: center;
 }
 
-.localizacao .telefone{
+.localizacao .telefone {
   display: grid;
   place-items: center;
 }
@@ -774,13 +773,15 @@ ul.ultimasclientes {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 
 .orcamento h2 {
   width: 309px;
   height: 80px;
   color: #ffffff;
-  margin-top: 160px;
+  line-height: 24px;
   margin-bottom: 24px;
   font-style: normal;
   font-weight: 700;
@@ -796,6 +797,9 @@ ul.ultimasclientes {
 .orcamento p {
   margin-bottom: 40px;
   color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .orcamento button {
