@@ -381,7 +381,7 @@ ul.ultimasclientes {
 #card-1:hover,
 #card-2:hover,
 #card-3:hover {
-  background-color: #00737e;
+  background-color: #ffffff;
   transition: all 0.5s ease;
 }
 
@@ -416,6 +416,21 @@ ul.ultimasclientes {
   text-align: center;
   color: #ffffff;
   margin-top: 8px;
+ 
+}
+
+#card-1:hover p {
+  width: 334px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #002847;
+  margin-top: 8px;
+  
+  transition: all 0.5s ease;
+
 }
 
 #card-2 {
@@ -426,6 +441,7 @@ ul.ultimasclientes {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  font-size: 16px;
 }
 
 #card-2 h3 {
@@ -436,11 +452,12 @@ ul.ultimasclientes {
   text-align: center;
   letter-spacing: -1px;
   color: #002847;
-  margin-top: 40px;
+  margin-top: 57px;
 }
 
 #card-2 p {
   width: 310px;
+  height: 144px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -449,6 +466,23 @@ ul.ultimasclientes {
   color: #ffffff;
   margin-top: 8px;
   margin-bottom: 32px;
+  
+
+}
+
+#card-2:hover p  {
+  width: 310px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #002847;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  
+  transition: all 0.5s ease;
+
 }
 
 #card-3 {
@@ -484,6 +518,19 @@ ul.ultimasclientes {
   margin-bottom: 80px;
 }
 
+#card-3:hover p {
+  width: 288px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #002847;
+  margin-top: 8px;
+  margin-bottom: 80px;
+  transition: all 0.5s ease;
+}
+
 #icon {
   width: 64px;
   height: 64px;
@@ -491,6 +538,8 @@ ul.ultimasclientes {
   border-radius: 50%;
   margin-top: 64px;
 }
+
+
 
 #icon img {
   display: block;
