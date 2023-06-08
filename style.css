@@ -11,6 +11,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+:root{
+  font-size: 62.5%;
+}
+
 a {
   text-decoration: none;
   color: #f0f0f0;
@@ -842,4 +846,144 @@ ul.ultimasclientes {
 
 .footer span {
   font-weight: 600;
+}
+
+
+/*Responsividade*/
+
+@media (max-width: 680px){ /*quando a tela for 680px pra baixo, vai acontecer isso...*/
+  body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  header{
+    margin-bottom: 0;
+  }
+
+  .header-menu a{
+    display: none;
+  }
+  .politica{
+    display: none;
+  }
+  
+
+  h1{
+    margin: none;
+    min-width: 10rem;
+    max-width: min-content;
+  }
+  main p{
+    min-width: 30rem;
+    max-width: min-content;
+  }
+  main{
+    width: fit-content;
+  }
+  .redes-intro{
+    display: none;
+  }
+
+  .historia p{
+    width: fit-content;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  /*.parceiros{
+    display: grid;
+    place-items: center;
+  }*/
+  
+  .parceiros ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin: 0;
+  }
+  .logoparceiros li{
+    width: max-content;
+    padding: 0;
+  }
+  .logoparceiros #casaparafusos{
+    margin: 0;
+  }
+
+  .logoparceiros #intelbras{
+    margin: 0;
+  }
+  .logoparceiros{
+    padding: 0;
+  }
+
+  /*começo section da logo dos clientes */
+  .clientes .logoclientes{
+    display: block;
+  }
+
+  ul.ultimasclientes {
+    display: block;
+  }
+
+  /*Introdução Section serviços */
+
+
+  .servicos{
+    display: block;
+  }
+  .servicos p{
+    width: fit-content;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .servicos h2{
+    margin: none;
+    min-width: 10rem;
+    max-width: fit-content;
+    block-size: fit-content;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    ;
+  }
+
+  #card-1{
+    width: min-content;
+  }
+  #card-2{
+    width: 33.4rem;
+  }
+  #card-3{
+    width: 33.4rem;
+  }
+ /*começo section economia*/
+
+ .economia p{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: fit-content;
+ }
+
+ .exp p {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: fit-content
+ }
+
+ .exp h2{
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+ }
+
+  footer{
+    display: none;
+  }
 }
