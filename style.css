@@ -983,7 +983,26 @@ ul.ultimasclientes {
   padding-right: 5rem;
  }
 
+
+ /*Início section orçamento/contato*/
+ .orcamento h2{
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  height: 8rem;
+  width: 45rem;
+ }
+
+ .orcamento p{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: fit-content;
+ }
+
+
   footer{
     display: none;
   }
+
+  
 }
