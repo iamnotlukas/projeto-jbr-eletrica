@@ -359,7 +359,7 @@ ul.ultimasclientes {
   font-weight: 700;
   text-align: center;
   line-height: 4rem;
-  padding-bottom: 2.4rem;
+  margin: 0 auto;
 }
 
 .container-servicos h2{
@@ -368,6 +368,20 @@ ul.ultimasclientes {
 
 .container-servicos span{
   color:#0099a8;
+}
+
+.container-servicos p{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 2.4rem;
+  margin-bottom: 4rem;
+  max-width: 75.2rem;
+  height: 7.2rem;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  
 }
 
 .cards {
@@ -399,24 +413,24 @@ ul.ultimasclientes {
 #card-1 h3,#card-2 h3,#card-3 h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 2vw;
+  font-size: 2.2rem;
   line-height: 125%;
   text-align: center;
   letter-spacing: -1px;
   color: #002847;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 #card-1 p,#card-2 p,#card-3 p {
-  width: 31vw;
+ width: fit-content;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.33vw;
+  font-size: 1.6rem;
   line-height: 150%;
   text-align: center;
   color: #ffffff;
   margin-top: 8px;
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 
 
