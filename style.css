@@ -9,6 +9,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  overscroll-behavior: hidden;
 }
 
 :root{ /*root para fazer o resposivo*/
@@ -387,8 +388,8 @@ ul.ultimasclientes {
 .cards {
   width: auto;
   display: flex;
-   justify-content: center;
-   gap: 1.6rem;
+  justify-content: center;
+  gap: 1.6rem;
     
 }
 
@@ -401,8 +402,8 @@ ul.ultimasclientes {
   }
   */
 #card-1,#card-2,#card-3 {
-  width: 30.42vw;
-  height: 26.53vw;
+  max-width: fit-content;
+  height: auto;
   background-color: #066c9b;
   display: flex;
   align-items: center;
@@ -414,7 +415,6 @@ ul.ultimasclientes {
   font-style: normal;
   font-weight: 700;
   font-size: 2.2rem;
-  line-height: 125%;
   text-align: center;
   letter-spacing: -1px;
   color: #002847;
@@ -422,15 +422,13 @@ ul.ultimasclientes {
 }
 
 #card-1 p,#card-2 p,#card-3 p {
- width: fit-content;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 150%;
+  width: 100%;
   text-align: center;
   color: #ffffff;
-  margin-top: 8px;
-  margin-bottom: 8rem;
+  padding-top: 0.2rem;
+  padding-bottom: 8rem;
+  padding-left: 5.3rem;
+  padding-right: 5.3rem;
 }
 
 
@@ -449,8 +447,8 @@ ul.ultimasclientes {
   }
   */
 #icon {
-  width: 64px;
-  height: 64px;
+  width: 10%;
+  height: auto;
   border: 1.5px solid #00b0f2;
   border-radius: 50%;
   margin-top: 64px;
@@ -458,8 +456,8 @@ ul.ultimasclientes {
 
 #icon img {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 50%;
+  height: auto;
   margin: 15px;
 }
 
