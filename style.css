@@ -10,6 +10,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   overscroll-behavior: hidden;
+  overflow-x: hidden;
 }
 
 :root{ /*root para fazer o resposivo*/
@@ -424,7 +425,7 @@ ul.ultimasclientes {
 
 #card-1 p,#card-2 p,#card-3 p {
   width: 100%;
-  text-align: center;
+  text-align: justify;
   color: #ffffff;
   padding-top: 0.2rem;
   padding-bottom: 8rem;
