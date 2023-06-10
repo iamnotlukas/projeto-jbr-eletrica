@@ -347,6 +347,7 @@ ul.ultimasclientes {
 .container-servicos{
   padding: 16rem 6.4rem;
   max-width:fit-content;
+  margin: 0 auto;
 }
 
 
@@ -402,8 +403,8 @@ ul.ultimasclientes {
   }
   */
 #card-1,#card-2,#card-3 {
-  width: fit-content;
-  height: auto;
+  width: 21.6rem;
+  height: 28.2rem;
   background-color: #066c9b;
   display: flex;
   align-items: center;
