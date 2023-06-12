@@ -12,7 +12,8 @@ body {
   overscroll-behavior: hidden;
 }
 
-:root{ /*root para fazer o resposivo*/
+:root {
+  /*root para fazer o resposivo*/
   font-size: 62.5%;
 }
 
@@ -226,7 +227,7 @@ button {
   color: #0099a8;
 }
 
-.parceiros h2 + span {
+.parceiros h2+span {
   width: 284px;
   margin-bottom: 95px;
 }
@@ -303,7 +304,7 @@ button {
 
 /*IMAGENS CLIENTES*/
 
-.clientes .logoclientes + .utlimaslogo {
+.clientes .logoclientes+.utlimaslogo {
   width: 100%;
   display: grid;
   place-items: center;
@@ -311,7 +312,7 @@ button {
   align-items: center;
 }
 
-.clientes .logoclientes + .utlimaslogo img {
+.clientes .logoclientes+.utlimaslogo img {
   margin-right: 73px;
   margin-left: 73px;
   gap: 40px;
@@ -339,20 +340,24 @@ ul.ultimasclientes {
 }
 
 /*5º SECTION-Serviços*/
-.servicos{
+.servicos {
   width: 100%;
   background-color: #002847;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
 }
 
-.container-servicos{
-  padding: 16rem 6.4rem;
+.container-servicos {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: auto;
 }
 
-
-
-
-
-.container-servicos h2,span{ /*config texto principal section serviços*/
+.container-servicos h2,
+span {
+  /*config texto principal section serviços*/
   font-size: 3.2rem;
   max-width: 46.4rem;
   height: 8rem;
@@ -362,15 +367,15 @@ ul.ultimasclientes {
   margin: 0 auto;
 }
 
-.container-servicos h2{
+.container-servicos h2 {
   color: #ffffff;
 }
 
-.container-servicos span{
-  color:#0099a8;
+.servicos span {
+  color: #0099a8;
 }
 
-.container-servicos #prin{
+.container-servicos #prin {
   text-align: center;
   color: #ffffff;
   margin-top: 2.4rem;
@@ -381,15 +386,18 @@ ul.ultimasclientes {
   margin-left: auto;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  
 }
 
 .cards {
-  width: auto;
+  width: 100%;
+  height: auto;
   display: flex;
+  box-sizing: border-box;
+  flex-flow: wrap;
   justify-content: center;
   gap: 1.6rem;
-    
+  padding-bottom: 16rem;
+  padding-top: 4rem;
 }
 
 /*
@@ -400,8 +408,10 @@ ul.ultimasclientes {
     transition: all 0.5s ease;
   }
   */
-#card-1,#card-2,#card-3 {
-  width: 21.6rem;
+
+
+#card-1 {
+  width: 31.6rem;
   height: 28.2rem;
   background-color: #066c9b;
   display: flex;
@@ -410,31 +420,140 @@ ul.ultimasclientes {
   justify-content: center;
 }
 
-#card-1 h3,#card-2 h3,#card-3 h3 {
+
+#card-1 h3 {
+  width: 32rem;
   font-style: normal;
   font-weight: 700;
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   text-align: center;
   letter-spacing: -1px;
   color: #002847;
-  padding-top: 40px;
-  padding-left: 6.4rem;
-  padding-right: 6.4rem;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
 }
 
-#card-1 p,#card-2 p,#card-3 p {
-  width: 100%;
+#card-1 p {
+  width: 31vw;
+  font-style: normal;
+  line-height: 150%;
   text-align: center;
   color: #ffffff;
-  padding-top: 0.2rem;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-top: 0.8rem;
   padding-bottom: 8rem;
-  padding-left: 4.3rem;
-  padding-right: 4.3rem;
+  padding-left: 4.1rem;
+  padding-right: 4.1rem;
 }
 
 
+/*#card-1:hover p {
+    width: 334px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #002847;
+    margin-top: 8px;
+  
+    transition: all 0.5s ease;
+  }
+  */
+
+#card-2 {
+  width: 31.6rem;
+  height: 28.2rem;
+  background-color: #066c9b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+
+}
+
+#card-2 h3 {
+  width: 32rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #002847;
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+}
+
+#card-2 p {
+  width: 31vw;
+  font-style: normal;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 8rem;
+  padding-left: 4.1rem;
+  padding-right: 4.1rem;
+}
+
 /*
-  #card-1:hover p,#card-2:hover p,#card-3:hover p {
+  #card-2:hover p {
+    width: 310px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #002847;
+    margin-top: 8px;
+    margin-bottom: 32px;
+  
+    transition: all 0.5s ease;
+  }
+  */
+#card-3 {
+  width: 31.6rem;
+  height: 28.2rem;
+  background-color: #066c9b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#card-3 h3 {
+  width: 32rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.7rem;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #002847;
+  padding-left: 3.1rem;
+  padding-right: 3.1rem;
+}
+
+#card-3 p {
+  width: 31vw;
+  font-style: normal;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding-top: 0.8rem;
+  padding-bottom: 8rem;
+  padding-left: 4.1rem;
+  padding-right: 4.1rem;
+}
+
+/*
+  #card-3:hover p {
     width: 288px;
     font-style: normal;
     font-weight: 400;
@@ -447,24 +566,22 @@ ul.ultimasclientes {
     transition: all 0.5s ease;
   }
   */
+/*
 #icon {
-  width: 10%;
-  height: auto;
+  width: 64px;
+  height: 64px;
   border: 1.5px solid #00b0f2;
   border-radius: 50%;
   margin-top: 64px;
-  
 }
 
 #icon img {
   display: block;
-  width: 50%;
-  height: auto;
+  width: 32px;
+  height: 32px;
   margin: 15px;
-  
 }
-
-
+*/
 /* 6ºSECTION - POLÍTICA */
 .politica {
   background-color: #00b0f2;
@@ -474,8 +591,6 @@ ul.ultimasclientes {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  display: none;
-
 }
 
 /* centralização do titulo da section politica */
@@ -681,6 +796,7 @@ ul.ultimasclientes {
 .localizacao img {
   margin-bottom: 10px;
 }
+
 .localizacao .local {
   display: grid;
   place-items: center;
@@ -695,6 +811,7 @@ ul.ultimasclientes {
   display: grid;
   place-items: center;
 }
+
 /* Começa a 9° Seção aqui - Orçamento -  Está acabando, vamos! */
 
 .orcamento {
@@ -708,7 +825,7 @@ ul.ultimasclientes {
   padding-top: 160px;
   display: none;
 
-  
+
 }
 
 .orcamento h2 {
@@ -741,7 +858,7 @@ ul.ultimasclientes {
   padding: 16px 32px;
 }
 
-.redes-orcamento{
+.redes-orcamento {
   display: flex;
   gap: 16px;
   margin-top: 78px;
@@ -770,6 +887,7 @@ ul.ultimasclientes {
   margin-right: 64px;
   justify-content: space-between;
 }
+
 .footer p {
   font-weight: 400;
   font-size: 14px;
@@ -781,22 +899,27 @@ ul.ultimasclientes {
 }
 
 /*alinhamento div container*/
-.historia-container, .politica-container,
- .orcamento-container, .localizacao-container, 
- .exp-container, .parceiros-container, 
- .clientes-container{
+.historia-container,
+.politica-container,
+.orcamento-container,
+.localizacao-container,
+.exp-container,
+.parceiros-container,
+.clientes-container {
   width: 100%;
   margin: 0 auto;
   max-width: 121.6rem;
-  padding:0 1.5rem;
+  padding: 0 1.5rem;
 }
 
 
 
 /*Responsividade*/
 
-@media (max-width: 680px){ /*quando a tela for 680px pra baixo, vai acontecer isso...*/
-  body{
+@media (max-width: 680px) {
+
+  /*quando a tela for 680px pra baixo, vai acontecer isso...*/
+  body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -804,35 +927,39 @@ ul.ultimasclientes {
     flex-wrap: wrap;
   }
 
-  header{
+  header {
     margin-bottom: 0;
   }
 
-  .header-menu a{
+  .header-menu a {
     display: none;
   }
-  .politica{
-    display: none;
-  }
-  
 
-  h1{
+  .politica {
+    display: none;
+  }
+
+
+  h1 {
     margin: none;
     min-width: 10rem;
     max-width: min-content;
   }
-  main p{
+
+  main p {
     min-width: 30rem;
     max-width: min-content;
   }
-  main{
+
+  main {
     width: fit-content;
   }
-  .redes-intro{
+
+  .redes-intro {
     display: none;
   }
 
-  .historia p{
+  .historia p {
     width: fit-content;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -842,31 +969,34 @@ ul.ultimasclientes {
     display: grid;
     place-items: center;
   }*/
-  
-  .parceiros ul{
+
+  .parceiros ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: fit-content;
     margin: 0;
   }
-  .logoparceiros li{
+
+  .logoparceiros li {
     width: max-content;
     padding: 0;
   }
-  .logoparceiros #casaparafusos{
+
+  .logoparceiros #casaparafusos {
     margin: 0;
   }
 
-  .logoparceiros #intelbras{
+  .logoparceiros #intelbras {
     margin: 0;
   }
-  .logoparceiros{
+
+  .logoparceiros {
     padding: 0;
   }
 
   /*começo section da logo dos clientes */
-  .clientes .logoclientes{
+  .clientes .logoclientes {
     display: block;
   }
 
@@ -877,76 +1007,81 @@ ul.ultimasclientes {
   /*Introdução Section serviços */
 
 
-  .servicos{
+  .servicos {
     display: block;
   }
-  .servicos p{
+
+  .servicos p {
     width: fit-content;
     padding-left: 5rem;
     padding-right: 5rem;
   }
 
-  .servicos h2{
+  .servicos h2 {
     margin: none;
     min-width: 10rem;
     max-width: fit-content;
     block-size: fit-content;
   }
-  .cards{
+
+  .cards {
     display: flex;
     flex-wrap: wrap;
     ;
   }
 
-  #card-1{
+  #card-1 {
     width: min-content;
   }
-  #card-2{
+
+  #card-2 {
     width: 33.4rem;
   }
-  #card-3{
+
+  #card-3 {
     width: 33.4rem;
   }
- /*começo section economia*/
 
- .economia p{
-  padding-left: 5rem;
-  padding-right: 5rem;
-  width: fit-content;
- }
+  /*começo section economia*/
 
- .exp p {
-  padding-left: 5rem;
-  padding-right: 5rem;
-  width: fit-content
- }
+  .economia p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: fit-content;
+  }
 
- .exp h2{
-  width: fit-content;
-  padding-left: 5rem;
-  padding-right: 5rem;
- }
+  .exp p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: fit-content
+  }
 
-
- /*Início section orçamento/contato*/
- .orcamento h2{
-  width: fit-content;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  height: 8rem;
-  width: 45rem;
- }
-
- .orcamento p{
-  padding-left: 5rem;
-  padding-right: 5rem;
-  width: fit-content;
- }
+  .exp h2 {
+    width: fit-content;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 
 
-  footer{
+  /*Início section orçamento/contato*/
+  .orcamento h2 {
+    width: fit-content;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 8rem;
+    width: 45rem;
+  }
+
+  .orcamento p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    width: fit-content;
+  }
+
+
+  footer {
     display: none;
   }
 
-  
+
 }
