@@ -382,7 +382,7 @@ span {
   margin-top: 2.4rem;
   margin-bottom: 4rem;
   max-width: 75.2rem;
-  height: 7.2rem;
+
   margin-right: auto;
   margin-left: auto;
   font-size: 1.6rem;
@@ -401,14 +401,14 @@ span {
   padding-top: 4rem;
 }
 
-/*
+
   #card-1:hover,
   #card-2:hover,
   #card-3:hover {
     background-color: #ffffff;
     transition: all 0.5s ease;
   }
-  */
+ 
 
 
 #card-1 {
@@ -423,7 +423,7 @@ span {
 
 
 #card-1 h3 {
-  width: 32rem;
+
   font-style: normal;
   font-weight: 700;
   font-size: 1.7rem;
@@ -435,7 +435,6 @@ span {
 }
 
 #card-1 p {
-  width: 31vw;
   font-style: normal;
   line-height: 150%;
   text-align: center;
@@ -449,19 +448,11 @@ span {
 }
 
 
-/*#card-1:hover p {
-    width: 334px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    color: #002847;
-    margin-top: 8px;
-  
-    transition: all 0.5s ease;
-  }
-  */
+#card-1:hover p {
+  color: #002847;
+  transition: all 0.5s ease;
+}
+
 
 #card-2 {
   width: 31.6rem;
@@ -476,7 +467,7 @@ span {
 }
 
 #card-2 h3 {
-  width: 32rem;
+
   font-style: normal;
   font-weight: 700;
   font-size: 1.7rem;
@@ -488,7 +479,7 @@ span {
 }
 
 #card-2 p {
-  width: 31vw;
+
   font-style: normal;
   line-height: 150%;
   text-align: center;
@@ -501,21 +492,11 @@ span {
   padding-right: 4.1rem;
 }
 
-/*
-  #card-2:hover p {
-    width: 310px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    color: #002847;
-    margin-top: 8px;
-    margin-bottom: 32px;
-  
-    transition: all 0.5s ease;
-  }
-  */
+#card-2:hover p {
+  color: #002847;
+  transition: all 0.5s ease;
+}
+
 #card-3 {
   width: 31.6rem;
   height: 28.2rem;
@@ -528,7 +509,7 @@ span {
 }
 
 #card-3 h3 {
-  width: 32rem;
+
   font-style: normal;
   font-weight: 700;
   font-size: 1.7rem;
@@ -540,7 +521,7 @@ span {
 }
 
 #card-3 p {
-  width: 31vw;
+
   font-style: normal;
   line-height: 150%;
   text-align: center;
@@ -553,21 +534,13 @@ span {
   padding-right: 4.1rem;
 }
 
-/*
-  #card-3:hover p {
-    width: 288px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    color: #002847;
-    margin-top: 8px;
-    margin-bottom: 80px;
-    transition: all 0.5s ease;
-  }
-  */
-/*
+
+#card-3:hover p {
+  color: #002847;
+  transition: all 0.5s ease;
+}
+
+
 #icon {
   width: 64px;
   height: 64px;
@@ -582,7 +555,7 @@ span {
   height: 32px;
   margin: 15px;
 }
-*/
+
 /* 6ºSECTION - POLÍTICA */
 .politica {
   background-color: #00b0f2;
@@ -592,6 +565,7 @@ span {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
+  display: none;
 }
 
 /* centralização do titulo da section politica */
@@ -1032,15 +1006,15 @@ span {
   }
 
   #card-1 {
-    width: min-content;
+    width: 28.4rem;
   }
 
   #card-2 {
-    width: 33.4rem;
+    width: 28.4rem;
   }
 
   #card-3 {
-    width: 33.4rem;
+    width: 28.4rem;
   }
 
   /*começo section economia*/
