@@ -47,7 +47,7 @@ button {
 
 img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
   display: block;
 }
 
@@ -60,7 +60,7 @@ img {
   padding-left: 64px;
   padding-right: 64px;
   padding-top: 24px;
-  display: none;
+  ;
 }
 
 .container {
@@ -104,7 +104,7 @@ img {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  display: none;
+  ;
 }
 
 h1 {
@@ -159,30 +159,26 @@ button {
 .redes-intro {
   display: flex;
   gap: 16px;
-  margin-top: 78px;
+  margin-top: 7.8rem;
 }
 
 /*SEGUNDA SECTION - História  */
 .historia {
   display: grid;
   place-items: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
-  display: none;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
 
 }
 
 .historia h2 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
+  
+  font-size: 3.2rem;
   text-align: center;
   color: #002847;
-
   margin: 0 auto;
-  margin-bottom: 24px;
-  width: 240px;
+  margin-bottom: 2.4rem;
+  max-width: 24rem;
 }
 
 .historia span {
@@ -206,22 +202,19 @@ button {
   display: grid;
   place-items: center;
   background-color: #002847;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  display: none;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 
 }
 
 .parceiros h2 {
-  font-style: normal;
-  font-weight: 700;
   text-align: center;
-  font-size: 32px;
-  margin-top: 80px;
-  margin-bottom: 64px;
+  font-size: 3.2rem;
+  margin-top: 8rem;
+  margin-bottom: 6.4rem;
   color: #ffffff;
-  width: 284px;
-  height: 80px;
+  width: 28.4rem;
+  margin: 0 auto; 
 }
 
 .parceiros span {
@@ -229,28 +222,27 @@ button {
 }
 
 .parceiros h2+span {
-  width: 284px;
-  margin-bottom: 95px;
+  max-width: 28.4rem;
+  padding-bottom: 9.5rem;
 }
 
 .logoparceiros {
-  padding-top: 64px;
+  padding-top: 6.4rem;
   display: flex;
   flex-wrap: wrap;
 
   justify-content: center;
   align-items: center;
-  padding-right: 120px;
-  padding-left: 180px;
+  padding-right: 12rem;
+  padding-left: 18rem;
 }
 
-.logoparceiros ul li img {
+.logoparceiros ul li img { /*transição das logo parceiros*/
   transition: transform 0.2s ease-in-out;
-  align-items: center;
-  justify-content: center;
+  
 }
 
-.logoparceiros ul li img:hover {
+.logoparceiros ul li img:hover { /*hover das img */
   transform: scale(1.2);
   width: auto;
   display: flex;
@@ -258,75 +250,55 @@ button {
 }
 
 .logoparceiros ul {
-  width: 100%;
-  align-items: center;
+  margin-block-end: 5rem;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-block-end: 50px;
 }
 
-.logoparceiros #intelbras {
-  margin-right: 176px;
-  margin-left: 169px;
-}
-
-.logoparceiros #casaparafusos {
-  margin-left: 167px;
-  margin-right: 155px;
-}
 
 .logoparceiros .utlimaslogo {
-  margin-bottom: 95px;
+  padding-bottom: 95rem;
 }
 
 /* 3° Section começa aqui - Clientes */
 
 .clientes {
   width: 100%;
-  display: grid;
-  place-items: center;
   background-color: #ffffff;
-  padding-top: 80px;
-  display: none;
+  padding-top: 8rem;
+  margin: 0 auto;
 
 }
 
 .clientes h2 {
-  width: 382px;
+  max-width: 38.2rem;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: center;
   color: #002847;
-  margin-bottom: 106px;
+  margin: 0 auto;
+  padding-bottom: 10.6rem;
 }
 
 .clientes span {
   color: #0099a8;
 }
 
-/*IMAGENS CLIENTES*/
+/*IMAGENS LOGO CLIENTES*/
 
-.clientes .logoclientes+.utlimaslogo {
-  width: 100%;
-  display: grid;
-  place-items: center;
-  margin-bottom: 30px;
-  align-items: center;
+.clientes .logoclientes, .ultimasclientes{
+  display: flex;
+  justify-content: center;
 }
 
-.clientes .logoclientes+.utlimaslogo img {
-  margin-right: 73px;
-  margin-left: 73px;
-  gap: 40px;
-  align-items: center;
+
+.clientes .logoclientes img { /*espaço entre as logo clientes*/
+  padding-bottom: 8rem;
 }
 
-.clientes .logoclientes img {
-  margin-bottom: 80px;
-  align-items: center;
-}
-
-ul.ultimasclientes {
-  margin-bottom: 50px;
+.ultimasclientes {
+  padding-bottom: 5rem;
 }
 
 .clientes img {
@@ -370,6 +342,7 @@ span {
 
 .container-servicos h2 {
   color: #ffffff;
+  margin-top: 16rem;
 }
 
 .servicos span {
@@ -565,7 +538,7 @@ span {
   align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
-  display: none;
+  ;
 }
 
 /* centralização do titulo da section politica */
@@ -578,11 +551,11 @@ span {
 
 .politica h2 {
   color: #002847;
-  font-weight: 700;
-  width: 494px;
-  margin-bottom: 24px;
+  max-width: 49.4rem;
+  margin-bottom: 2.4rem;
   text-align: center;
   justify-content: center;
+  font-size: 3.2rem;
 }
 
 .politica .principal p {
@@ -594,19 +567,23 @@ span {
   font-size: 16px;
 }
 
+article{
+  margin: 0 auto;
+}
+
 .politica #quadrado1,
 #quadrado2,
 #quadrado3,
 #quadrado4,
 #quadrado5 {
-  width: 640px;
-  height: 160px;
+  width: 64rem;
+  height: 16rem;
   background-color: #002847;
-  margin-top: 40px;
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .politica #pquadrado1,
@@ -616,8 +593,8 @@ span {
 #pquadrado5 {
   color: #ffffff;
   text-align: center;
-  width: 471px;
-  height: 48px;
+  max-width: 47.1rem;
+  font-size: 1.7rem;
 }
 
 /*efeito hover nos quadrados */
@@ -627,14 +604,14 @@ span {
 #quadrado3:hover,
 #quadrado4:hover,
 #quadrado5:hover {
-  width: 640px;
-  height: 160px;
+  width: 64rem;
+  height: 16rem;
   background-color: #f0f0f0;
-  margin-top: 40px;
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 1.6rem;
   transition: all 0.5s ease;
 }
 
@@ -646,9 +623,6 @@ span {
 #quadrado4:hover #pquadrado4,
 #quadrado5:hover #pquadrado5 {
   color: #002847;
-  text-align: center;
-  width: 471px;
-  height: 48px;
   transition: all 0.5s ease;
 }
 
@@ -656,7 +630,6 @@ span {
 
 .economia {
   width: 100%;
-  height: 432px;
   background-image: url(./Images/img/bg-quebra.png);
   background-position: top center;
   background-attachment: scroll;
@@ -666,17 +639,16 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
-  display: none;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  ;
 
 }
 
 .economia h2 {
-  width: 494px;
-  height: 40px;
+  max-width: 49.4rem;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: center;
   color: #ffffff;
   margin-bottom: 24px;
@@ -706,7 +678,7 @@ span {
   justify-content: center;
   padding-top: 160px;
   padding-bottom: 160px;
-  display: none;
+  ;
 
 }
 
@@ -737,20 +709,21 @@ span {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  display: none;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  
 
 }
 
 .localizacao h2 {
   color: #002847;
   text-align: center;
-  width: 290px;
+  max-width: 29rem;
   font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 24px;
-  line-height: 40px;
+  font-size: 3.2rem;
+  padding-bottom: 2.4rem;
+  margin: 0 auto;
+
 }
 
 .localizacao span {
@@ -798,7 +771,7 @@ span {
   align-items: center;
   justify-content: center;
   padding-top: 160px;
-  display: none;
+  ;
 
 
 }
@@ -851,7 +824,7 @@ span {
   flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 40px;
-  display: none;
+  ;
 
 }
 
@@ -869,8 +842,12 @@ span {
   line-height: 22px;
 }
 
-.footer span {
-  font-weight: 600;
+.footer-right span{
+  font-size: 1.4rem;
+}
+
+.container-footer span{
+  font-size: 1.4rem;
 }
 
 /*alinhamento div container*/
@@ -881,7 +858,7 @@ span {
 .exp-container,
 .parceiros-container,
 .clientes-container {
-  width: 100%;
+  
   margin: 0 auto;
   max-width: 121.6rem;
   padding: 0 1.5rem;
@@ -1040,7 +1017,7 @@ span {
 
   /*Início section orçamento/contato*/
   .orcamento h2 {
-    width: fit-content;
+    /* width: fit-content; */
     padding-left: 5rem;
     padding-right: 5rem;
     height: 8rem;
@@ -1054,9 +1031,11 @@ span {
   }
 
 
-  footer {
+  footer .container-footer {
     display: none;
   }
 
-
+  .footer{
+  display: none;
+  }
 }
