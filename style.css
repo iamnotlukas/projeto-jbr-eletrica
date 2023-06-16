@@ -666,7 +666,7 @@ article{
 
 .exp {
   width: 100%;
-  height: 448px;
+
   background-image: url(./Images/img/bg-quebra02.png);
   background-position: top center;
   background-attachment: scroll;
@@ -683,26 +683,26 @@ article{
 }
 
 .exp h2 {
-  width: 580px;
+  max-width: 58rem;
 
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .exp p {
-  font-size: 16px;
+  font-size: 1.6rem;
   text-align: center;
   font-weight: 400;
   color: #ffffff;
-  width: 571px;
+  max-width: 57.1rem;
 }
 
 /*Start 9° Seção - Localização */
 .localizacao {
-  width: 100%;
+  max-width: 100%;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -762,7 +762,7 @@ article{
 
 /* Começa a 9° Seção aqui - Orçamento -  Está acabando, vamos! */
 
-.orcamento {
+.orcamento-container {
   width: 100%;
   background-color: #002847;
   display: flex;
@@ -770,22 +770,15 @@ article{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding-top: 160px;
-  ;
-
-
+  padding-top: 16rem;
 }
 
 .orcamento h2 {
-  width: 309px;
-  height: 80px;
+  width: 30.9rem;
   color: #ffffff;
   line-height: 24px;
-  margin-bottom: 24px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
+  padding-bottom: 2.4rem;
+  font-size: 3.2rem;
   text-align: center;
 }
 
@@ -798,18 +791,18 @@ article{
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 2.4rem;
 }
 
 .orcamento button {
   background-color: #00b0f2;
-  padding: 16px 32px;
+  padding: 1.6rem 3.2rem;
 }
 
 .redes-orcamento {
   display: flex;
-  gap: 16px;
-  margin-top: 78px;
+  gap: 1.6rem;
+  margin-top: 7.8rem;
   margin: none;
 }
 
@@ -817,13 +810,13 @@ article{
 
 .footer {
   width: 100%;
-  height: 128px;
+  height: 12.8rem;
   background-color: #0099a8;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   ;
 
 }
@@ -843,17 +836,17 @@ article{
 }
 
 .footer-right span{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .container-footer span{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 /*alinhamento div container*/
 .historia-container,
 .politica-container,
-.orcamento-container,
+
 .localizacao-container,
 .exp-container,
 .parceiros-container,
@@ -1009,7 +1002,6 @@ article{
   }
 
   .exp h2 {
-    width: fit-content;
     padding-left: 5rem;
     padding-right: 5rem;
   }
