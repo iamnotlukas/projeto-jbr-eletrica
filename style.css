@@ -576,7 +576,7 @@ article{
 #quadrado3,
 #quadrado4,
 #quadrado5 {
-  width: 64rem;
+  max-width: 64rem;
   height: 16rem;
   background-color: #002847;
   margin-top: 4rem;
@@ -604,14 +604,9 @@ article{
 #quadrado3:hover,
 #quadrado4:hover,
 #quadrado5:hover {
-  width: 64rem;
-  height: 16rem;
+  
   background-color: #f0f0f0;
-  margin-top: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.6rem;
+  
   transition: all 0.3s ease;
 }
 
