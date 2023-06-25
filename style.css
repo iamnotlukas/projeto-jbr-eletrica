@@ -172,7 +172,7 @@ button {
 }
 
 .historia h2 {
-  
+
   font-size: 3.2rem;
   text-align: center;
   color: #002847;
@@ -188,11 +188,11 @@ button {
 .historia p {
   text-align: center;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   margin: 0 auto;
-  margin-block: 24px;
-  width: 841px;
+  margin-block: 2.4rem;
+  max-width: 84.1rem;
   color: #002847;
 }
 
@@ -214,7 +214,7 @@ button {
   margin-bottom: 6.4rem;
   color: #ffffff;
   width: 28.4rem;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .parceiros span {
@@ -237,12 +237,14 @@ button {
   padding-left: 18rem;
 }
 
-.logoparceiros ul li img { /*transição das logo parceiros*/
+.logoparceiros ul li img {
+  /*transição das logo parceiros*/
   transition: transform 0.2s ease-in-out;
-  
+
 }
 
-.logoparceiros ul li img:hover { /*hover das img */
+.logoparceiros ul li img:hover {
+  /*hover das img */
   transform: scale(1.2);
   width: auto;
   display: flex;
@@ -287,13 +289,15 @@ button {
 
 /*IMAGENS LOGO CLIENTES*/
 
-.clientes .logoclientes, .ultimasclientes{
+.clientes .logoclientes,
+.ultimasclientes {
   display: flex;
   justify-content: center;
 }
 
 
-.clientes .logoclientes img { /*espaço entre as logo clientes*/
+.clientes .logoclientes img {
+  /*espaço entre as logo clientes*/
   padding-bottom: 8rem;
 }
 
@@ -375,13 +379,13 @@ span {
 }
 
 
-  #card-1:hover,
-  #card-2:hover,
-  #card-3:hover {
-    background-color: #ffffff;
-    transition: all 0.5s ease;
-  }
- 
+#card-1:hover,
+#card-2:hover,
+#card-3:hover {
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+}
+
 
 
 #card-1 {
@@ -567,7 +571,7 @@ span {
   font-size: 16px;
 }
 
-article{
+article {
   margin: 0 auto;
 }
 
@@ -604,9 +608,9 @@ article{
 #quadrado3:hover,
 #quadrado4:hover,
 #quadrado5:hover {
-  
+
   background-color: #f0f0f0;
-  
+
   transition: all 0.3s ease;
 }
 
@@ -646,15 +650,17 @@ article{
   font-size: 3.2rem;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 24px;
+  padding-bottom: 2.4rem;
+  margin: 0 auto;
 }
 
 .economia p {
-  font-size: 16px;
+  max-width: 57.8rem;
+  font-size: 1.6rem;
   text-align: center;
   font-weight: 400;
+  line-height: 2.4rem;
   color: #ffffff;
-  width: 578px;
 }
 
 /* Começa a 8° seção - Experiência */
@@ -671,28 +677,27 @@ article{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
   ;
 
 }
 
 .exp h2 {
   max-width: 58rem;
-
   font-weight: 700;
   font-size: 3.2rem;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 2.4rem;
+  padding-bottom: 2.4rem;
 }
 
 .exp p {
+  max-width: 57.1rem;
   font-size: 1.6rem;
   text-align: center;
   font-weight: 400;
   color: #ffffff;
-  max-width: 57.1rem;
 }
 
 /*Start 9° Seção - Localização */
@@ -706,7 +711,7 @@ article{
   justify-content: center;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  
+
 
 }
 
@@ -732,8 +737,9 @@ article{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 41.25px;
-  line-height: 24px;
+  margin-bottom: 4.125rem;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
 }
 
 .localizacao img {
@@ -830,11 +836,11 @@ article{
   line-height: 22px;
 }
 
-.footer-right span{
+.footer-right span {
   font-size: 1.2rem;
 }
 
-.container-footer span{
+.container-footer span {
   font-size: 1.2rem;
 }
 
@@ -846,14 +852,16 @@ article{
 .exp-container,
 .parceiros-container,
 .clientes-container {
-  
+
   margin: 0 auto;
   max-width: 121.6rem;
   padding: 0 1.5rem;
 }
 
 
-
+@media (max-width: 380px) {
+  
+}
 /*Responsividade*/
 
 @media (max-width: 680px) {
@@ -1022,7 +1030,7 @@ article{
     display: none;
   }
 
-  .footer{
-  display: none;
+  .footer {
+    display: none;
   }
 }
