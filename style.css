@@ -859,10 +859,13 @@ article {
 }
 
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .clientes img, .parceiros img {
     max-width:60% ;
     margin: 0 auto;
+  }
+  .parceiros h2 {
+    padding-bottom: 6.4rem;
   }
 }
 /*Responsividade*/
