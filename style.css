@@ -389,13 +389,12 @@ span {
 
 
 #card-1 {
-  width: 31.6rem;
-  height: 28.2rem;
+  max-width: 31.6rem;
+  height: 28.0rem;
   background-color: #066c9b;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
 
 
@@ -409,6 +408,7 @@ span {
   color: #002847;
   padding-left: 4.8rem;
   padding-right: 4.8rem;
+  padding-top: 3rem;
 }
 
 #card-1 p {
@@ -419,7 +419,7 @@ span {
   font-weight: 400;
   font-size: 1.3rem;
   padding-top: 0.8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
   padding-left: 4.1rem;
   padding-right: 4.1rem;
 }
@@ -432,15 +432,12 @@ span {
 
 
 #card-2 {
-  width: 31.6rem;
-  height: 28.2rem;
+  max-width: 31.6rem;
+  height: 28.0rem;
   background-color: #066c9b;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-
 }
 
 #card-2 h3 {
@@ -453,6 +450,7 @@ span {
   color: #002847;
   padding-left: 4.8rem;
   padding-right: 4.8rem;
+  padding-top: 3rem;
 }
 
 #card-2 p {
@@ -464,7 +462,7 @@ span {
   font-weight: 400;
   font-size: 1.3rem;
   padding-top: 0.8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
   padding-left: 4.1rem;
   padding-right: 4.1rem;
 }
@@ -475,14 +473,12 @@ span {
 }
 
 #card-3 {
-  width: 31.6rem;
-  height: 28.2rem;
+  max-width: 31.6rem;
+  height: 28.0rem;
   background-color: #066c9b;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
 }
 
 #card-3 h3 {
@@ -495,6 +491,8 @@ span {
   color: #002847;
   padding-left: 3.1rem;
   padding-right: 3.1rem;
+  padding-top: 3rem;
+
 }
 
 #card-3 p {
@@ -506,7 +504,7 @@ span {
   font-weight: 400;
   font-size: 1.3rem;
   padding-top: 0.8rem;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
   padding-left: 4.1rem;
   padding-right: 4.1rem;
 }
@@ -517,20 +515,20 @@ span {
   transition: all 0.5s ease;
 }
 
+#icon-circle {
+  padding-top: 2.4rem;
+}
 
 #icon {
-  width: 6.4rem;
-  height: 6.4rem;
   border: 1.5px solid #00b0f2;
   border-radius: 50%;
-  margin-top: 6.4rem;
 }
 
 #icon img {
   display: block;
-  width: 3.2rem;
-  height: 3.2rem;
-  margin: 1.5rem;
+  max-width: 3.1rem;
+  margin: 0 auto;   
+  padding: 0.4rem    
 }
 
 /* 6ºSECTION - POLÍTICA */
