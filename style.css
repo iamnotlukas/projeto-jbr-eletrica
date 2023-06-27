@@ -888,6 +888,12 @@ article {
     flex-wrap: wrap;
   }
 
+
+  /* todos os subtiulos das seções vão diminuir */
+  h2{
+    font-size: 2.4rem;
+  }
+
   header {
     margin-bottom: 0;
   }
@@ -927,13 +933,7 @@ article {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: fit-content;
-    margin: 0;
-  }
-
-  .logoparceiros li {
-    width: max-content;
-    padding: 0;
+    margin: 0 auto;
   }
 
   .logoparceiros #casaparafusos {
@@ -997,31 +997,37 @@ article {
 
   /*começo section economia*/
 
-  .economia p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: fit-content;
+  .economia{
+    padding: 10rem 5rem;
   }
-
+  .economia h2{
+   
+    font-size: 2.4rem;
+  }
+  .economia p {
+   
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+  }
+  .exp{
+    padding: 10rem 5rem;
+  }
   .exp p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: fit-content
+    
+    font-size: 1.2rem;
+    line-height: 2.3rem;
   }
 
   .exp h2 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    font-size: 2.4rem;
   }
 
 
   /*Início section orçamento/contato*/
   .orcamento h2 {
-    /* width: fit-content; */
     padding-left: 5rem;
     padding-right: 5rem;
-    height: 8rem;
-    width: 45rem;
+    max-width: 45rem;
   }
 
   .orcamento p {
