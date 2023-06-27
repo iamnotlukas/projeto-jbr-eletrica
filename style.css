@@ -857,6 +857,9 @@ article {
 /*responsivo das imagens
 */
 @media (max-width: 1179px) {
+
+
+  
   .parceiros img {
     display: flex;
     align-items: center;
@@ -867,12 +870,28 @@ article {
 
 
 @media (max-width: 400px) {
-  .clientes img, .parceiros img {
-    max-width:60% ;
-    margin: 0 auto;
+
+ /*quando a tela for 680px pra baixo, vai acontecer isso...*/
+ body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   }
-  .parceiros h2 {
+ /* todos os subtiulos das seções vão diminuir */
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  .clientes img, .parceiros img {
+    max-width: 50% ;
+    margin: 0 auto;
+    
+  }
+  .parceiros h2,span {
     padding-bottom: 6.4rem;
+    font-size: 2.4rem;
   }
 }
 /*Responsividade*/
@@ -909,8 +928,7 @@ article {
 
   h1 {
     margin: none;
-    min-width: 10rem;
-    max-width: min-content;
+    font-size: 3rem;
   }
 
 
@@ -924,16 +942,45 @@ article {
     font-size: 1.2rem;
   }
 
+  /*section historia*/
+
+  .historia{
+    padding:10rem 5rem ;
+  }
+  .historia-container{
+    padding: 0;
+  }
+
+  .historia h2,span{
+    font-size: 2.4rem;
+  }
+
+  .historia p{
+    font-size: 1.2rem;
+    width: auto;
+    margin-block: 2rem;
+    padding: 0 3rem;
+  }
+
   .parceiros{
     display: grid;
     place-items: center;
   }
+  .parceiros h2,span {
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+  }
 
+  .parceiros img{
+    max-width: 50%;
+    margin :0 auto;
+  }
   .parceiros ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
+    gap: 2rem;
   }
 
   .logoparceiros #casaparafusos {
@@ -949,32 +996,61 @@ article {
   }
 
   /*começo section da logo dos clientes */
-  .clientes .logoclientes {
-    display: block;
+
+
+  .clientes h2,span {
+    font-size: 2.4rem ;
+    padding-bottom: 3rem;
+    margin: 0 auto;
   }
 
-  ul.ultimasclientes {
-    display: block;
+  .clientes .logoclientes, .ultimasclientes{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clientes .logoclientes img{
+    padding-bottom: 0;
+  }
+  .clientes img {
+    max-width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .clientes ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 2rem;
   }
 
   /*Introdução Section serviços */
 
-
   .servicos {
     display: block;
+    padding: 10rem 5rem;
   }
 
-  .servicos p {
-    width: fit-content;
-    padding-left: 5rem;
-    padding-right: 5rem;
+  
+  .servicos span, .container-servicos span{
+    padding: 0;
+    margin: 0;
+    font-size: 2.4rem;
+
+  }
+  .container-servicos h2,span {
+   font-size: 2.4rem;
+   margin: 0;
   }
 
-  .servicos h2 {
-    margin: none;
-    min-width: 10rem;
-    max-width: fit-content;
-    block-size: fit-content;
+  .container-servicos #prin{
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: 2.4rem;
   }
 
   .cards {
@@ -1021,22 +1097,34 @@ article {
   .exp h2 {
     font-size: 2.4rem;
   }
+   
+  .localizacao {
+    padding: 10rem 5rem;
+  }
 
+  .localizacao h2 {
+    font-size: 2.4rem;
+  }
+
+  .localizacao p {
+    font-size: 1.2rem;
+  }
 
   /*Início section orçamento/contato*/
-  .orcamento h2 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    max-width: 45rem;
+  .orcamento-container {
+    padding: 10rem 5rem;
+  }
+  .orcamento h2,span {
+    font-size: 2.4rem;
   }
 
-  .orcamento p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    width: fit-content;
+  .orcamento-container p {
+    font-size: 1.2rem;
   }
-
-
+  
+  .orcamento button{
+    padding: 1.5rem 3rem;
+  }
   footer .container-footer {
     display: none;
   }
