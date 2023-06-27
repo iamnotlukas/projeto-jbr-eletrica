@@ -898,14 +898,6 @@ article {
     max-width: min-content;
   }
 
-  main p {
-    min-width: 30rem;
-    max-width: min-content;
-  }
-
-  main {
-    width: fit-content;
-  }
 
   .redes-intro {
     display: none;
@@ -917,10 +909,10 @@ article {
     font-size: 1.2rem;
   }
 
-  /*.parceiros{
+  .parceiros{
     display: grid;
     place-items: center;
-  }*/
+  }
 
   .parceiros ul {
     display: flex;
