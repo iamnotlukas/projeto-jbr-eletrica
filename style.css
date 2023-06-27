@@ -167,8 +167,7 @@ button {
   width: 100%;
   display: grid;
   place-items: center;
-  padding-top: 16rem;
-  padding-bottom: 16rem;
+  padding: 16rem 2.5rem;
 }
 
 .historia h2 {
@@ -194,6 +193,7 @@ button {
   margin-block: 2.4rem;
   max-width: 84.1rem;
   color: #002847;
+
 }
 
 .parceiros {
@@ -268,7 +268,7 @@ button {
 .clientes {
   width: 100%;
   background-color: #ffffff;
-  padding-top: 8rem;
+  padding: 16rem 2.5rem;
   margin: 0 auto;
 
 }
@@ -301,9 +301,7 @@ button {
   padding-bottom: 8rem;
 }
 
-.ultimasclientes {
-  padding-bottom: 5rem;
-}
+
 
 .clientes img {
   transition: transform 0.2s ease-in-out;
@@ -812,7 +810,7 @@ article {
 
 .footer {
   width: 100%;
-  height: 12.8rem;
+ 
   background-color: #0099a8;
   display: flex;
   flex-direction: column;
@@ -825,24 +823,25 @@ article {
 
 .container-footer {
   display: flex;
-  align-items: center;
-  margin-left: 64px;
-  margin-right: 64px;
+  align-items: flex-start;
+  margin-left: 4.4rem;
+  margin-right: 4.4rem;
   justify-content: space-between;
 }
 
 .footer p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
+  
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 .footer-right span {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 2rem;
 }
 
 .container-footer span {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /*alinhamento div container*/
@@ -948,8 +947,8 @@ article {
 
 
   h1 {
-    margin: none;
     font-size: 5rem;
+    margin-top: 0;
 
   }
 
@@ -1031,18 +1030,21 @@ article {
 
   
 
-  .clientes img{
-    padding-bottom: 0;
-    margin: 0;
-    max-width: 50%;
-    padding: 0;
-    margin-right: 0 ;
+
+  .clientes .logoclientes img,.ultimasclientes img{
+    padding-bottom: 2rem;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
   }
 
-  .clientes ul,li {
-    flex-wrap: wrap;
-    gap: 2rem;
+
+
+  .clientes .logoclientes, .ultimasclientes{
+    display: block;
   }
+
 
   /*Introdução Section serviços */
 
