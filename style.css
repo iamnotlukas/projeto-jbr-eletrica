@@ -98,7 +98,6 @@ img {
 
 .intro {
   width: 100%;
-  height: 680px;
   background-image: url("./Images/img/bg-intro.jpg");
   background-position: top center;
   background-attachment: fixed;
@@ -121,16 +120,17 @@ h1 {
 .container-intro {
   display: grid;
   place-items: center;
+  padding: 10rem 5rem
 }
 
 .intro p {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 2.0rem;
+  line-height: 2.8rem;
   text-align: center;
   color: #ffffff;
-  width: 457px;
+  max-width: 45.7rem;
 }
 
 .btn-intro {
@@ -164,11 +164,11 @@ button {
 
 /*SEGUNDA SECTION - História  */
 .historia {
+  width: 100%;
   display: grid;
   place-items: center;
   padding-top: 16rem;
   padding-bottom: 16rem;
-
 }
 
 .historia h2 {
@@ -761,7 +761,9 @@ article {
 }
 
 /* Começa a 9° Seção aqui - Orçamento -  Está acabando, vamos! */
-
+.orcamento {
+  width: 100%;
+}
 .orcamento-container {
   width: 100%;
   background-color: #002847;
@@ -885,15 +887,33 @@ article {
     font-size: 2.4rem;
   }
 
-  .clientes img, .parceiros img {
+  /* historia*/
+  .historia{
+  }
+  .historia-container{
+  }
+
+  .historia h2,span{
+    font-size: 2.4rem;
+  }
+
+  .historia p{
+    max-width: 20rem;
+    font-size: 1.2rem;
+    margin-block: 2rem;
+  }
+/* clientes*/
+    .clientes img, .parceiros img {
     max-width: 50% ;
     margin: 0 auto;
     
   }
+  /*parceiros*/
   .parceiros h2,span {
     padding-bottom: 6.4rem;
     font-size: 2.4rem;
   }
+  
 }
 /*Responsividade*/
 
@@ -929,16 +949,14 @@ article {
 
   h1 {
     margin: none;
-    font-size: 3rem;
+    font-size: 5rem;
+
   }
 
 
   .redes-intro {
     display: none;
   }
-
-
-
   /*section historia*/
 
   .historia{
