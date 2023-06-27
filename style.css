@@ -34,7 +34,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 32px;
+  gap: 3.2rem;
   align-items: center;
 }
 
@@ -111,11 +111,11 @@ h1 {
   margin-top: 160px;
   margin-bottom: 32px;
   font-weight: bold;
-  font-size: 56px;
+  font-size: 5.6rem;
   line-height: 64px;
   text-align: center;
   color: #ffffff;
-  width: 600px;
+  max-width: 60rem;
 }
 
 .container-intro {
@@ -853,7 +853,16 @@ article {
 
   margin: 0 auto;
   max-width: 121.6rem;
-  padding: 0 1.5rem;
+}
+/*responsivo das imagens
+*/
+@media (max-width: 1179px) {
+  .parceiros img {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    max-width: 100%;
+  }
 }
 
 
@@ -917,10 +926,10 @@ article {
     padding-right: 5rem;
   }
 
-  /*.parceiros{
+  .parceiros{
     display: grid;
     place-items: center;
-  }*/
+  }
 
   .parceiros ul {
     display: flex;
