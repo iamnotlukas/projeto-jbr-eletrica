@@ -921,9 +921,9 @@ article {
   }
 
   .historia p {
-    width: fit-content;
     padding-left: 5rem;
     padding-right: 5rem;
+    font-size: 1.2rem;
   }
 
   .parceiros{
