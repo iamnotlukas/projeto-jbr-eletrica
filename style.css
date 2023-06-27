@@ -586,6 +586,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
+  padding: 5rem;
 }
 
 .politica #pquadrado1,
@@ -936,11 +937,7 @@ article {
     display: none;
   }
 
-  .historia p {
-    padding-left: 5rem;
-    padding-right: 5rem;
-    font-size: 1.2rem;
-  }
+
 
   /*section historia*/
 
@@ -959,7 +956,6 @@ article {
     font-size: 1.2rem;
     width: auto;
     margin-block: 2rem;
-    padding: 0 3rem;
   }
 
   .parceiros{
@@ -980,7 +976,7 @@ article {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .logoparceiros #casaparafusos {
