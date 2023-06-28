@@ -885,16 +885,23 @@ article {
     flex-wrap: wrap;
   }
 
-
+  .container{
+    display: block ;
+  }
   /* todos os subtiulos das seções vão diminuir */
   h2{
     font-size: 2.4rem;
   }
-
+   img{
+    margin: 1rem auto
+   }
   header {
     margin-bottom: 0;
   }
-  
+  .home{
+    padding:0 ;
+    height: auto;
+  }
   .header-menu a {
     display: none;
   }
@@ -981,7 +988,7 @@ article {
   }
   
   .clientes h2,span {
-    font-size: 2.4rem ;
+    font-size: 2.8rem ;
     padding-bottom: 3rem;
     margin: 0 auto;
   }
@@ -1015,17 +1022,17 @@ article {
   .servicos span, .container-servicos span{
     padding: 0;
     margin: 0;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
 
   }
-  .container-servicos h2,span {
-   font-size: 2.4rem;
+  .container-servicos h2, span {
+   font-size: 2.8rem;
    margin: 0;
-   padding-bottom: 10rem;
+   padding-bottom: 13rem;
   }
   
   .container-servicos #prin{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 0;
     padding-top: 2.4rem;
     line-height: 2rem;
@@ -1056,11 +1063,11 @@ article {
   }
   .economia h2{
    
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
   .economia p {
    
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 2.3rem;
   }
   .exp{
@@ -1068,12 +1075,12 @@ article {
   }
   .exp p {
     
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 2.3rem;
   }
 
   .exp h2 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
    
   .localizacao {
@@ -1081,7 +1088,7 @@ article {
   }
   
   .localizacao h2 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
 
   .localizacao p {
@@ -1093,7 +1100,7 @@ article {
     padding: 10rem 5rem;
   }
   .orcamento h2,span {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
   
   .orcamento-container p {
@@ -1127,7 +1134,7 @@ article {
     }
     
     h1 {
-      font-size: 4rem;
+      font-size: 4.5rem;
     }
   
     /* historia*/
