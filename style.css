@@ -774,9 +774,9 @@ article {
 }
 
 .orcamento h2 {
-  width: 30.9rem;
+  max-width: 30.9rem;
   color: #ffffff;
-  line-height: 24px;
+  line-height: 2.4rem;
   padding-bottom: 2.4rem;
   font-size: 3.2rem;
   text-align: center;
@@ -792,6 +792,7 @@ article {
   font-size: 16px;
   font-weight: 400;
   line-height: 2.4rem;
+  text-align: center;
 }
 
 .orcamento button {
@@ -871,49 +872,6 @@ article {
 }
 
 
-@media (max-width: 400px) {
-
- /*quando a tela for 680px pra baixo, vai acontecer isso...*/
- body {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  }
- /* todos os subtiulos das seções vão diminuir */
-  h2 {
-    font-size: 2.4rem;
-  }
-
-  /* historia*/
-  .historia{
-  }
-  .historia-container{
-  }
-
-  .historia h2,span{
-    font-size: 2.4rem;
-  }
-
-  .historia p{
-    max-width: 20rem;
-    font-size: 1.2rem;
-    margin-block: 2rem;
-  }
-/* clientes*/
-    .clientes img, .parceiros img {
-    max-width: 50% ;
-    margin: 0 auto;
-    
-  }
-  /*parceiros*/
-  .parceiros h2,span {
-    padding-bottom: 6.4rem;
-    font-size: 2.4rem;
-  }
-  
-}
 /*Responsividade*/
 
 @media (max-width: 680px) {
@@ -936,7 +894,7 @@ article {
   header {
     margin-bottom: 0;
   }
-
+  
   .header-menu a {
     display: none;
   }
@@ -945,7 +903,7 @@ article {
     display: none;
   }
 
-
+  
   h1 {
     font-size: 5rem;
     margin-top: 0;
@@ -964,11 +922,11 @@ article {
   .historia-container{
     padding: 0;
   }
-
+  
   .historia h2,span{
     font-size: 2.4rem;
   }
-
+  
   .historia p{
     font-size: 1.2rem;
     width: auto;
@@ -1011,7 +969,7 @@ article {
   /*começo section da logo dos clientes */
 
 
-
+  
   .clientes{
     padding: 10rem 5rem;
     margin: 0;
@@ -1021,13 +979,13 @@ article {
     flex-direction: column;
     justify-content: center;
   }
-
+  
   .clientes h2,span {
     font-size: 2.4rem ;
     padding-bottom: 3rem;
     margin: 0 auto;
   }
-
+  
   
 
 
@@ -1038,8 +996,8 @@ article {
     flex-direction: column;
     margin: 0 auto;
   }
-
-
+  
+  
 
   .clientes .logoclientes, .ultimasclientes{
     display: block;
@@ -1064,19 +1022,19 @@ article {
    font-size: 2.4rem;
    margin: 0;
   }
-
+  
   .container-servicos #prin{
     font-size: 1.2rem;
     margin: 0;
     padding-top: 2.4rem;
   }
-
+  
   .cards {
     display: flex;
     flex-wrap: wrap;
     ;
   }
-
+  
   #card-1 {
     width: 28.4rem;
   }
@@ -1084,11 +1042,11 @@ article {
   #card-2 {
     width: 28.4rem;
   }
-
+  
   #card-3 {
     width: 28.4rem;
   }
-
+  
   /*começo section economia*/
 
   .economia{
@@ -1119,7 +1077,7 @@ article {
   .localizacao {
     padding: 10rem 5rem;
   }
-
+  
   .localizacao h2 {
     font-size: 2.4rem;
   }
@@ -1127,7 +1085,7 @@ article {
   .localizacao p {
     font-size: 1.2rem;
   }
-
+  
   /*Início section orçamento/contato*/
   .orcamento-container {
     padding: 10rem 5rem;
@@ -1135,7 +1093,7 @@ article {
   .orcamento h2,span {
     font-size: 2.4rem;
   }
-
+  
   .orcamento-container p {
     font-size: 1.2rem;
   }
@@ -1151,3 +1109,47 @@ article {
     display: none;
   }
 }
+  @media (max-width: 400px) {
+  
+   /*quando a tela for 680px pra baixo, vai acontecer isso...*/
+   body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+   /* todos os subtiulos das seções vão diminuir */
+    h2 {
+      font-size: 2.4rem;
+    }
+    
+    h1 {
+      font-size: 4rem;
+    }
+  
+    /* historia*/
+  
+    .historia h2,span{
+      font-size: 2.4rem;
+    }
+  
+    .historia p{
+      max-width: 20rem;
+      font-size: 1.2rem;
+      margin-block: 2rem;
+    }
+  /* clientes*/
+      .clientes img, .parceiros img {
+      max-width: 50% ;
+      margin: 0 auto;
+      
+    }
+    /*parceiros*/
+    .parceiros h2,span {
+      padding-bottom: 6.4rem;
+      font-size: 2.4rem;
+    }
+    
+    
+  }
