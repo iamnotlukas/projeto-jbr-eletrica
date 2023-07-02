@@ -107,11 +107,11 @@ img {
 }
 
 h1 {
-  margin-top: 160px;
-  margin-bottom: 32px;
+  margin-top: 16rem;
+  margin-bottom: 3.2rem;
   font-weight: bold;
   font-size: 5.6rem;
-  line-height: 64px;
+  line-height: 6.4rem;
   text-align: center;
   color: #ffffff;
   max-width: 60rem;
@@ -134,15 +134,15 @@ h1 {
 }
 
 .btn-intro {
-  padding: 16px 32px;
+  padding: 1.6rem 3.2rem;
   gap: 8px;
   background: #00b0f2;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
   text-align: center;
-  margin-top: 56px;
+  margin-top: 5.6rem;
 }
 
 .btn-intro a {
@@ -199,12 +199,9 @@ button {
 .parceiros {
   /*Seção Parceiros */
   width: 100%;
-  display: grid;
-  place-items: center;
+  display: block;
   background-color: #002847;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-
+  padding: 16rem 2.5rem;
 }
 
 .parceiros h2 {
@@ -213,7 +210,7 @@ button {
   margin-top: 8rem;
   margin-bottom: 6.4rem;
   color: #ffffff;
-  width: 28.4rem;
+  max-width: 28.4rem;
   margin: 0 auto;
 }
 
@@ -221,47 +218,41 @@ button {
   color: #0099a8;
 }
 
-.parceiros h2+span {
+.parceiros h2, span {
   max-width: 28.4rem;
-  padding-bottom: 9.5rem;
+  padding-bottom: 10.6rem;
+}
+
+.parceiros img{
+  width: auto;
+}
+.ultimaslogo{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  
 }
 
 .logoparceiros {
-  padding-top: 6.4rem;
   display: flex;
-  flex-wrap: wrap;
-
-  justify-content: center;
-  align-items: center;
-  padding-right: 12rem;
-  padding-left: 18rem;
+  justify-content: space-evenly;
+  gap: 1rem;
 }
 
-.logoparceiros ul li img {
-  /*transição das logo parceiros*/
+
+
+.logoparceiros img, .ultimaslogo img {
   transition: transform 0.2s ease-in-out;
 
 }
 
-.logoparceiros ul li img:hover {
-  /*hover das img */
+.logoparceiros img:hover, .ultimaslogo img:hover {
   transform: scale(1.2);
   width: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.logoparceiros ul {
-  margin-block-end: 5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-
-.logoparceiros .utlimaslogo {
-  padding-bottom: 95rem;
-}
 
 /* 3° Section começa aqui - Clientes */
 
@@ -335,7 +326,6 @@ span {
   /*config texto principal section serviços*/
   font-size: 3.2rem;
   max-width: 46.4rem;
-  height: 8rem;
   font-weight: 700;
   text-align: center;
   line-height: 4rem;
@@ -885,6 +875,12 @@ article {
     flex-wrap: wrap;
   }
 
+  .intro {
+    width: 100%;
+    background-image: url("./Images/img/bg-intro.jpg");
+    ;
+  }
+
   .container{
     display: block ;
   }
@@ -931,11 +927,11 @@ article {
   }
   
   .historia h2,span{
-    font-size: 2.4rem;
+    font-size: 2.6rem;
   }
   
   .historia p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     width: auto;
     margin-block: 2rem;
   }
@@ -943,14 +939,18 @@ article {
   .parceiros{
     display: grid;
     place-items: center;
+    padding: 10rem 5rem;
+    background-color: #0099a8;
   }
   .parceiros h2,span {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     padding-bottom: 3rem;
   }
-
+  .parceiros span{
+    color: #002847;
+  }
   .parceiros img{
-    max-width: 50%;
+    max-width: 70%;
     margin :0 auto;
   }
   .parceiros ul {
@@ -958,7 +958,7 @@ article {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 1.5rem;
+    gap: 2rem;
   }
 
   .logoparceiros #casaparafusos {
@@ -978,7 +978,7 @@ article {
 
   
   .clientes{
-    padding: 10rem 5rem;
+    padding: 10rem 1rem;
     margin: 0;
   }
   .clientes-container{
@@ -1028,7 +1028,6 @@ article {
   .container-servicos h2, span {
    font-size: 2.8rem;
    margin: 0;
-   padding-bottom: 13rem;
   }
   
   .container-servicos #prin{
@@ -1067,7 +1066,7 @@ article {
   }
   .economia p {
    
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 2.3rem;
   }
   .exp{
@@ -1075,7 +1074,7 @@ article {
   }
   .exp p {
     
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 2.3rem;
   }
 
@@ -1092,7 +1091,7 @@ article {
   }
 
   .localizacao p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   
   /*Início section orçamento/contato*/
@@ -1104,7 +1103,7 @@ article {
   }
   
   .orcamento-container p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   
   .orcamento button{
@@ -1134,7 +1133,7 @@ article {
     }
     
     h1 {
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
   
     /* historia*/
@@ -1157,7 +1156,7 @@ article {
     /*parceiros*/
     .parceiros h2,span {
       padding-bottom: 6.4rem;
-      font-size: 2.8rem;
+      font-size: 2.6rem;
     }
     /*Servicos*/
     #icon-circle {
@@ -1180,4 +1179,10 @@ article {
       padding: 10rem 2.5rem;
     }
     
+  }
+
+  @media (max-width :330px ){
+    #card-1, #card-2, #card-3 {
+      width: 23rem;
+  }
   }
