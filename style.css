@@ -1189,7 +1189,7 @@ article {
   
     /* historia*/
   
-    .historia h2,span{
+    .historia h2{
       font-size: 3.2rem;
     }
     .historia span{
@@ -1209,9 +1209,13 @@ article {
       
     }
     /*parceiros*/
-    .parceiros h2,span {
+    .parceiros h2 {
       padding-bottom: 6.4rem;
-      font-size: 2.6rem;
+      font-size: 3.2rem;
+    }
+
+    .parceiros span {
+      font-size: 3.2rem;
     }
     /*Servicos*/
     #icon-circle {
