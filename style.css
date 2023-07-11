@@ -955,6 +955,11 @@ article {
   .parceiros span{
     color: #002847;
   }
+
+  .parceiros #intelbras {
+    margin: 0;
+  }
+
   .parceiros img{
     max-width: 70%;
     margin :0 auto;
@@ -967,22 +972,26 @@ article {
     gap: 2rem;
   }
 
+  .logoparceiros #andra {
+    padding-top: 2.2rem;
+  }
   .logoparceiros #casaparafusos {
     margin: 0;
+    padding-bottom: 2.2rem;
+    padding-top: 2.2rem;
   }
 
-  .logoparceiros #intelbras {
-    margin: 0;
+  .logoparceiros #ielcabos{
+    padding-bottom: 2.2rem;
   }
+
+  
 
   .logoparceiros {
     padding: 0;
   }
 
   /*começo section da logo dos clientes */
-
-
-  
   .clientes{
     padding: 10rem 1rem;
     margin: 0;
