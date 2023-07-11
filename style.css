@@ -959,13 +959,13 @@ article {
     padding: 10rem 5rem;
     background-color: #0099a8;
   }
-  .parceiros h2,span {
+  .parceiros h2 {
     font-size: 3.2rem;
     padding-bottom: 3rem;
-
   }
   .parceiros span{
     color: #002847;
+    font-size: 3.2rem;
   }
 
   .parceiros #intelbras {
@@ -996,8 +996,6 @@ article {
   .logoparceiros #ielcabos{
     padding-bottom: 2.2rem;
   }
-
-  
 
   .logoparceiros {
     padding: 0;
@@ -1109,7 +1107,7 @@ article {
   }
   .economia h2{
    
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
   .economia p {
    
@@ -1216,7 +1214,7 @@ article {
 
     .parceiros span {
       font-size: 3.2rem;
-    }
+    } 
     /*Servicos*/
     #icon-circle {
       padding-top: 2rem;
