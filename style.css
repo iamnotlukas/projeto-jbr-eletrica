@@ -1111,7 +1111,7 @@ article {
   }
   .economia p {
    
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.3rem;
   }
   .exp{
@@ -1119,12 +1119,12 @@ article {
   }
   .exp p {
     
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2.3rem;
   }
 
   .exp h2 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
    
   .localizacao {
@@ -1132,11 +1132,14 @@ article {
   }
   
   .localizacao h2 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
+  }
+  .localizacao span {
+    font-size: 3.2rem;
   }
 
   .localizacao p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   
   /*Início section orçamento/contato*/
