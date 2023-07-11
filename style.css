@@ -1085,6 +1085,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     padding-top: 4rem;
+    gap: 3rem;
   }
   
   #card-1, #card-2, #card-3{
