@@ -1090,11 +1090,16 @@ article {
   }
   
   #card-1, #card-2, #card-3{
-    width: 32rem;
+    width: 30.5rem;
   }
 
   #card-1 p, #card-2 p, #card-3 p{
     padding-bottom: 2rem;
+  }
+
+  #card-2 p{
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   
   /*começo section economia*/
@@ -1184,9 +1189,13 @@ article {
   
     /* historia*/
   
-    .historia h2,span{
-      font-size: 2.8rem;
+    .historia h2{
+      font-size: 3.2rem;
     }
+    .historia span{
+      font-size: 3.2rem;
+    }
+      
   
     .historia p{
       max-width: 30rem;
@@ -1200,9 +1209,13 @@ article {
       
     }
     /*parceiros*/
-    .parceiros h2,span {
+    .parceiros h2 {
       padding-bottom: 6.4rem;
-      font-size: 2.6rem;
+      font-size: 3.2rem;
+    }
+
+    .parceiros span {
+      font-size: 3.2rem;
     }
     /*Servicos*/
     #icon-circle {
