@@ -1014,29 +1014,51 @@ article {
     justify-content: center;
   }
   
-  .clientes h2,span {
+  .clientes h2 {
     font-size: 2.8rem ;
     padding-bottom: 3rem;
     margin: 0 auto;
   }
-  
-  
 
+  .clientes span {
 
-  .clientes .logoclientes img,.ultimasclientes img{
-    padding-bottom: 2rem;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    
   }
   
   
+  
+
+
+  .clientes .logoclientes img .ultimasclientes img{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 10rem auto;
+    transition: none;
+    transform: none;
+
+  }
+  
+  .clientes img {
+    transition: none;
+  }
+  
+  .clientes img:hover {
+    transform: none;
+    padding: none;
+  }
 
   .clientes .logoclientes, .ultimasclientes{
     display: block;
   }
 
+  .clientes .logoclientes img, .clientes .ultimasclientes img {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    margin-bottom: 4rem;
+  }
 
   /*Introdução Section serviços */
 
