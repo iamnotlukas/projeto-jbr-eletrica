@@ -242,6 +242,7 @@ button {
   display: flex;
   justify-content: space-evenly;
   gap: 1rem;
+  margin-bottom: 3.2rem;
 }
 
 
@@ -938,12 +939,16 @@ article {
     padding: 0;
   }
   
-  .historia h2,span{
-    font-size: 2.6rem;
+  .historia h2 {
+    font-size: 3.2rem;
   }
   
+  .historia span {
+    font-size: 3.2rem;
+  }
+
   .historia p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     width: auto;
     margin-block: 2rem;
   }
@@ -955,8 +960,9 @@ article {
     background-color: #0099a8;
   }
   .parceiros h2,span {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     padding-bottom: 3rem;
+
   }
   .parceiros span{
     color: #002847;
