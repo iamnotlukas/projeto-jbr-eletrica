@@ -1178,7 +1178,7 @@ article {
     }
    /* todos os subtiulos das seções vão diminuir */
     h2 {
-      font-size: 2.8rem;
+      font-size: 3.2rem;
     }
     
     h1 {
@@ -1235,11 +1235,19 @@ article {
     .servicos {
       padding: 10rem 2.5rem;
     }
+
+    .economia h2 {
+      font-size: 3.2rem;
+    }
+
+    .exp h2 {
+    font-size: 3.2rem;
+    }
     
   }
 
   @media (max-width :330px ){
     #card-1, #card-2, #card-3 {
       width: 23rem;
-  }
+    }
   }
