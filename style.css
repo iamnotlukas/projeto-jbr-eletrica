@@ -286,11 +286,18 @@ button {
 
 /*IMAGENS LOGO CLIENTES*/
 
+
+.ultimasclientes{
+  gap: 4rem; /* colocado gap nas últimas logo da secton clientes por causa do efeito hover */
+}
+
+
 .clientes .logoclientes,
 .ultimasclientes {
   display: flex;
   justify-content: center;
 }
+
 
 
 .clientes .logoclientes img {
