@@ -1057,8 +1057,10 @@ article {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
+    max-width: 30%;
   }
+
 
   /*Introdução Section serviços */
 
