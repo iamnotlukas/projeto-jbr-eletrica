@@ -1264,7 +1264,7 @@ article {
 
 /* Estilo específico para dispositivos Apple (por exemplo, Safari) */
   @media screen and (-webkit-min-device-pixel-ratio: 2) {
-    body {
+    .intro {
       background-image: url(./Images/img/bg-intro.jpg); /* Plano de fundo para dispositivos Apple */
       width: 100%;
       background-position: auto;
